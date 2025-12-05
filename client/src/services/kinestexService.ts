@@ -2,7 +2,9 @@ export interface KinesteXConfig {
   apiKey: string;
   company: string;
   exercise: string;
+  exercises?: string[];
   userId?: string;
+  style?: 'dark' | 'light';
   age?: number;
   height?: number;
   weight?: number;
@@ -10,87 +12,84 @@ export interface KinesteXConfig {
 }
 
 export interface KinesteXEventData {
-  type: 'rep_count' | 'mistakes' | 'workout_complete' | 'error' | 'ready' | 'pose_detected' | 'exercise_completed' | 'exit_kinestex' | 'workout_opened' | 'left_camera_frame';
+  type: 'rep_count' | 'mistakes' | 'workout_complete' | 'error' | 'ready' | 'pose_detected' | 'exit_kinestex';
   repCount?: number;
   mistake?: string;
   totalReps?: number;
   duration?: number;
   message?: string;
-  poseData?: unknown;
-  calories?: number;
-  mistakes?: Record<string, number>;
+  accuracy?: number;
 }
 
 export type KinesteXEventHandler = (data: KinesteXEventData) => void;
+
+const KINESTEX_URL = 'https://kinestex.vercel.app/camera';
 
 class KinesteXService {
   private iframe: HTMLIFrameElement | null = null;
   private eventHandlers: Set<KinesteXEventHandler> = new Set();
   private isInitialized = false;
   private config: KinesteXConfig | null = null;
+  private postData: Record<string, unknown> | null = null;
+
+  private sendMessage = () => {
+    if (this.iframe?.contentWindow && this.postData) {
+      this.iframe.contentWindow.postMessage(this.postData, KINESTEX_URL);
+      console.log('KinesteX postData sent:', this.postData);
+    }
+  };
 
   private handleMessage = (event: MessageEvent) => {
+    if (!event.origin.includes('kinestex.vercel.app')) {
+      return;
+    }
+
     try {
-      const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+      const message = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
       
-      if (!data || !data.type) return;
+      if (!message || !message.type) return;
 
-      let eventData: KinesteXEventData;
+      console.log('KinesteX message received:', message);
 
-      switch (data.type) {
-        case 'finished_workout':
-          eventData = {
-            type: 'workout_complete',
-            duration: data.data?.time_spent || data.time_spent,
-            calories: data.data?.calories || data.calories,
-            totalReps: data.data?.repeats || data.repeats,
-          };
+      switch (message.type) {
+        case 'kinestex_loaded':
+          this.sendMessage();
+          this.eventHandlers.forEach(handler => handler({ type: 'ready' }));
           break;
-        case 'exercise_completed':
-          eventData = {
+
+        case 'successful_repeat':
+          this.eventHandlers.forEach(handler => handler({
             type: 'rep_count',
-            repCount: data.data?.repeats || data.repeats,
-            duration: data.data?.time_spent || data.time_spent,
-            calories: data.data?.calories || data.calories,
-            mistakes: data.data?.mistakes || data.mistakes,
-          };
+            repCount: message.data?.value || message.data?.reps || 1,
+            accuracy: message.data?.accuracy,
+          }));
           break;
-        case 'error_occurred':
-          eventData = {
-            type: 'error',
-            message: data.data?.error || data.error || 'An error occurred',
-          };
-          break;
-        case 'exit_kinestex':
-          eventData = {
-            type: 'workout_complete',
-            duration: data.data?.time_spent || data.time_spent,
-          };
-          break;
-        case 'workout_opened':
-          eventData = {
-            type: 'ready',
-          };
-          break;
-        case 'left_camera_frame':
-          eventData = {
-            type: 'mistakes',
-            mistake: 'Please stay in the camera frame',
-          };
-          break;
-        default:
-          eventData = {
-            type: data.type,
-            repCount: data.repCount || data.reps || data.rep_count || data.data?.repeats,
-            mistake: data.mistake || data.error || data.feedback,
-            totalReps: data.totalReps || data.total_reps || data.data?.repeats,
-            duration: data.duration || data.data?.time_spent,
-            message: data.message,
-            poseData: data.poseData || data.pose,
-          };
-      }
 
-      this.eventHandlers.forEach(handler => handler(eventData));
+        case 'mistake':
+          this.eventHandlers.forEach(handler => handler({
+            type: 'mistakes',
+            mistake: message.data?.value || message.data?.mistake || 'Form correction needed',
+          }));
+          break;
+
+        case 'exit_kinestex':
+          this.eventHandlers.forEach(handler => handler({
+            type: 'workout_complete',
+            duration: message.data?.time_spent || 0,
+            totalReps: message.data?.reps || 0,
+          }));
+          break;
+
+        case 'error_occurred':
+          this.eventHandlers.forEach(handler => handler({
+            type: 'error',
+            message: message.data?.error || message.data?.message || 'An error occurred',
+          }));
+          break;
+
+        default:
+          console.log('Unhandled KinesteX message:', message);
+      }
     } catch (error) {
       console.error('Error parsing KinesteX message:', error, event.data);
     }
@@ -105,36 +104,35 @@ class KinesteXService {
 
       this.config = config;
 
-      this.iframe = document.createElement('iframe');
-      this.iframe.src = 'https://kinestex.vercel.app/';
-      this.iframe.style.width = '100%';
-      this.iframe.style.height = '100%';
-      this.iframe.style.border = 'none';
-      this.iframe.allow = 'camera; microphone; autoplay';
-      this.iframe.setAttribute('allowfullscreen', 'true');
-      this.iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts allow-forms allow-popups');
+      this.postData = {
+        key: config.apiKey,
+        userId: config.userId || 'demo-user-' + Date.now(),
+        company: config.company,
+        style: config.style || 'dark',
+        currentExercise: config.exercise,
+        exercises: config.exercises || [config.exercise],
+        age: config.age || 25,
+        height: config.height || 170,
+        weight: config.weight || 70,
+        gender: config.gender || 'Male',
+      };
 
       window.addEventListener('message', this.handleMessage);
 
-      this.iframe.onload = () => {
-        const postData = {
-          userId: config.userId || 'demo-user-' + Date.now(),
-          company: config.company,
-          key: config.apiKey,
-          planC: config.exercise === 'squats' ? 'Fitness' : config.exercise,
-          age: config.age || 25,
-          height: config.height || 170,
-          weight: config.weight || 70,
-          gender: config.gender || 'Male',
-        };
+      this.iframe = document.createElement('iframe');
+      this.iframe.id = 'kinestex-iframe';
+      this.iframe.style.width = '100%';
+      this.iframe.style.height = '100%';
+      this.iframe.style.border = 'none';
+      this.iframe.setAttribute('frameborder', '0');
+      this.iframe.setAttribute('allow', 'camera; microphone; autoplay; accelerometer; gyroscope; magnetometer');
+      this.iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts');
+      this.iframe.setAttribute('allowfullscreen', 'true');
 
-        setTimeout(() => {
-          if (this.iframe?.contentWindow) {
-            this.iframe.contentWindow.postMessage(postData, '*');
-            this.isInitialized = true;
-            resolve();
-          }
-        }, 500);
+      this.iframe.onload = () => {
+        this.sendMessage();
+        this.isInitialized = true;
+        resolve();
       };
 
       this.iframe.onerror = () => {
@@ -142,14 +140,8 @@ class KinesteXService {
       };
 
       container.innerHTML = '';
+      this.iframe.src = KINESTEX_URL;
       container.appendChild(this.iframe);
-
-      setTimeout(() => {
-        if (!this.isInitialized) {
-          this.isInitialized = true;
-          resolve();
-        }
-      }, 5000);
     });
   }
 
@@ -161,7 +153,7 @@ class KinesteXService {
 
     this.iframe.contentWindow.postMessage(
       { action: 'start', exercise: this.config?.exercise },
-      '*'
+      KINESTEX_URL
     );
   }
 
@@ -173,7 +165,7 @@ class KinesteXService {
 
     this.iframe.contentWindow.postMessage(
       { action: 'stop' },
-      '*'
+      KINESTEX_URL
     );
   }
 
@@ -185,7 +177,7 @@ class KinesteXService {
 
     this.iframe.contentWindow.postMessage(
       { action: 'reset' },
-      '*'
+      KINESTEX_URL
     );
   }
 
@@ -206,6 +198,7 @@ class KinesteXService {
     }
     this.isInitialized = false;
     this.config = null;
+    this.postData = null;
   }
 
   isReady(): boolean {
@@ -219,6 +212,8 @@ export function getKinesteXConfig(): KinesteXConfig {
   return {
     apiKey: import.meta.env.VITE_KINESTEX_API_KEY || '',
     company: import.meta.env.VITE_KINESTEX_COMPANY || '',
-    exercise: 'squats',
+    exercise: 'Squats',
+    exercises: ['Squats'],
+    style: 'dark',
   };
 }

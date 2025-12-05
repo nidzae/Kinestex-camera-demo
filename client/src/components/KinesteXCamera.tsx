@@ -47,12 +47,13 @@ export function KinesteXCamera({
         }
         break;
       case 'rep_count':
-        if (data.repCount !== undefined) {
-          setRepCount(data.repCount);
-          onRepCount?.(data.repCount);
-          setIsPulsing(true);
-          setTimeout(() => setIsPulsing(false), 200);
-        }
+        setRepCount(prev => {
+          const newCount = data.repCount !== undefined ? data.repCount : prev + 1;
+          onRepCount?.(newCount);
+          return newCount;
+        });
+        setIsPulsing(true);
+        setTimeout(() => setIsPulsing(false), 200);
         break;
       case 'mistakes':
         if (data.mistake) {

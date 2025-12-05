@@ -1,0 +1,190 @@
+To integrate the KinesteX Camera component into your web application using https://kinestex.vercel.app/camera, you'll need a basic HTML structure with an iframe, and JavaScript to configure the SDK, toggle the iframe's visibility, send initial data, and handle real-time feedback.
+
+Here's the boilerplate code:
+
+HTML Structure (index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KinesteX: Motion Tracking Camera</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #launchButton {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #launchButton:hover {
+            background-color: #0056b3;
+        }
+        #webViewContainer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none; /* Hidden by default */
+            z-index: 9999; /* Ensure it's on top */
+        }
+        #webView {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="launchButton">Launch KinesteX Camera</button>
+
+    <!-- Fullscreen iframe container -->
+    <div id="webViewContainer">
+        <iframe
+            id="webView"
+            frameborder="0"
+            allow="camera; microphone; autoplay; accelerometer; gyroscope; magnetometer"
+            sandbox="allow-same-origin allow-scripts"
+            allowfullscreen="true"
+        ></iframe>
+    </div>
+
+    <script>
+        // Your JavaScript code will go here
+    </script>
+</body>
+</html>
+JavaScript (script tag within body)
+
+const webViewContainer = document.getElementById('webViewContainer');
+const webView = document.getElementById('webView');
+const launchButton = document.getElementById('launchButton');
+
+// The URL for the KinesteX Camera component
+const srcURL = "https://kinestex.vercel.app/camera";
+
+// KinesteX SDK Configuration Data
+// Replace 'YOUR_API_KEY', 'YOUR_COMPANY_NAME', 'YOUR_USER_ID' with your actual credentials.
+const postData = {
+    key: 'YOUR_API_KEY', // Your API Key from kinestex admin dashboard
+    userId: 'YOUR_USER_ID', // Unique identifier for the user
+    company: 'YOUR_COMPANY_NAME', // Your organization’s name from kinestex admin dashboard
+    style: 'dark', // Optional: 'dark' or 'light' theme
+    
+    // Camera component specific parameters
+    currentExercise: 'Squats', // The exercise to start tracking immediately
+    exercises: ['Squats', 'Jumping Jack'], // All exercises expected in the session (preloads models)
+
+    // Optional user details for customization and calorie estimation
+    age: 30, // User's age (optional)
+    height: 175, // User's height in cm (optional)
+    weight: 70, // User's weight in kg (optional)
+    gender: 'Female', // Gender (optional)
+};
+
+// Function to send data to the iframe
+function sendMessage() {
+    if (webView.contentWindow) {
+        webView.contentWindow.postMessage(postData, srcURL);
+        console.log("Initial postData sent to KinesteX Camera:", postData);
+    } else {
+        // Retry if contentWindow is not ready yet
+        setTimeout(() => {
+            try {
+                webView.contentWindow.postMessage(postData, srcURL);
+                console.log("Initial postData re-sent to KinesteX Camera (retry):", postData);
+            } catch (e) {
+                console.error("Failed to send postData after retry:", e);
+            }
+        }, 100);
+    }
+}
+
+// Event listener for the launch button
+launchButton.addEventListener('click', () => {
+    // Show the iframe container
+    webViewContainer.style.display = 'block';
+    
+    // Set the iframe src and load handler
+    webView.src = srcURL;
+    webView.onload = () => {
+        sendMessage();
+    };
+});
+
+// Event listener to handle messages from the KinesteX SDK
+window.addEventListener('message', (event) => {
+    // Security check: ensure the message comes from the expected origin
+    if (event.origin !== srcURL) {
+        return;
+    }
+
+    try {
+        const message = JSON.parse(event.data);
+        switch (message.type) {
+            case 'kinestex_loaded':
+                // KinesteX DOM is ready, send initial data again (webview.onload can sometimes fire too early)
+                sendMessage();
+                console.log('KinesteX loaded message received, re-sending initial data.');
+                break;
+            case 'successful_repeat':
+                console.log('Exercise completed:', message.data);
+                // Example: Update UI with current rep count
+                // const reps = message.data.value;
+                break;
+            case 'mistake':
+                console.log('Mistake detected:', message.data);
+                // Example: Update UI with mistake feedback
+                // const mistake = message.data.value;
+                break;
+            case 'exit_kinestex':
+                console.log('User exited KinesteX:', message.data);
+                webViewContainer.style.display = 'none'; // Hide the iframe
+                break;
+            case 'error_occurred':
+                console.error('KinesteX Error:', message.data);
+                break;
+            default:
+                console.log('Unhandled message from KinesteX:', message);
+        }
+    } catch (e) {
+        console.error('Failed to parse message from KinesteX:', e);
+    }
+});
+Explanation:
+HTML Setup:
+A simple index.html file includes a button to trigger the KinesteX view and a hidden iframe container.
+The iframe has allow attributes for camera and microphone access, and sandbox for security.
+srcURL:
+The srcURL variable is set to https://kinestex.vercel.app/camera, which is the specific endpoint for the camera component.
+postData Object:
+This JavaScript object contains your KinesteX API key, userId, and company name.
+For the camera component, you must include currentExercise (the exercise to start tracking) and exercises (an array of all exercises that might be tracked during the session, which helps in pre-loading models).
+Optional parameters like style, age, height, weight, and gender can be included for customization and better calorie estimation.
+Launching KinesteX:
+When the "Launch KinesteX Camera" button is clicked, the webViewContainer becomes visible.
+The webView.src is set to srcURL, which loads the KinesteX camera component.
+Once the iframe finishes loading (webView.onload), the sendMessage() function is called to send the postData to the KinesteX SDK.
+Real-Time Feedback (window.addEventListener('message', ...)):
+This listener captures messages sent from the KinesteX SDK within the iframe.
+It includes a security check (event.origin !== srcURL) to only process messages from the trusted KinesteX source.
+kinestex_loaded: This message indicates the KinesteX DOM is ready. It's good practice to re-send postData here as webView.onload can sometimes fire prematurely on iOS.
+successful_repeat: Provides real-time updates on successful repetitions, including the value (total reps) and accuracy.
+mistake: Provides real-time feedback when a mistake is detected, including the value (description of the mistake).
+exit_kinestex: This message is received when the user explicitly exits the KinesteX view, allowing your application to hide the iframe.
+error_occurred: Logs significant errors, such as missing camera permissions.
+Remember to replace the placeholder values like 'YOUR_API_KEY', 'YOUR_COMPANY_NAME', and 'YOUR_USER_ID' with your actual KinesteX credentials.
