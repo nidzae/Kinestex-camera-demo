@@ -3,16 +3,22 @@ export interface KinesteXConfig {
   company: string;
   exercise: string;
   userId?: string;
+  age?: number;
+  height?: number;
+  weight?: number;
+  gender?: 'Male' | 'Female';
 }
 
 export interface KinesteXEventData {
-  type: 'rep_count' | 'mistakes' | 'workout_complete' | 'error' | 'ready' | 'pose_detected';
+  type: 'rep_count' | 'mistakes' | 'workout_complete' | 'error' | 'ready' | 'pose_detected' | 'exercise_completed' | 'exit_kinestex' | 'workout_opened' | 'left_camera_frame';
   repCount?: number;
   mistake?: string;
   totalReps?: number;
   duration?: number;
   message?: string;
   poseData?: unknown;
+  calories?: number;
+  mistakes?: Record<string, number>;
 }
 
 export type KinesteXEventHandler = (data: KinesteXEventData) => void;
@@ -24,57 +30,111 @@ class KinesteXService {
   private config: KinesteXConfig | null = null;
 
   private handleMessage = (event: MessageEvent) => {
-    if (event.origin !== 'https://kinestex.vercel.app') {
-      return;
-    }
-
     try {
       const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
       
-      const eventData: KinesteXEventData = {
-        type: data.type || data.event || 'error',
-        repCount: data.repCount || data.reps || data.rep_count,
-        mistake: data.mistake || data.error || data.feedback,
-        totalReps: data.totalReps || data.total_reps,
-        duration: data.duration,
-        message: data.message,
-        poseData: data.poseData || data.pose,
-      };
+      if (!data || !data.type) return;
+
+      let eventData: KinesteXEventData;
+
+      switch (data.type) {
+        case 'finished_workout':
+          eventData = {
+            type: 'workout_complete',
+            duration: data.data?.time_spent || data.time_spent,
+            calories: data.data?.calories || data.calories,
+            totalReps: data.data?.repeats || data.repeats,
+          };
+          break;
+        case 'exercise_completed':
+          eventData = {
+            type: 'rep_count',
+            repCount: data.data?.repeats || data.repeats,
+            duration: data.data?.time_spent || data.time_spent,
+            calories: data.data?.calories || data.calories,
+            mistakes: data.data?.mistakes || data.mistakes,
+          };
+          break;
+        case 'error_occurred':
+          eventData = {
+            type: 'error',
+            message: data.data?.error || data.error || 'An error occurred',
+          };
+          break;
+        case 'exit_kinestex':
+          eventData = {
+            type: 'workout_complete',
+            duration: data.data?.time_spent || data.time_spent,
+          };
+          break;
+        case 'workout_opened':
+          eventData = {
+            type: 'ready',
+          };
+          break;
+        case 'left_camera_frame':
+          eventData = {
+            type: 'mistakes',
+            mistake: 'Please stay in the camera frame',
+          };
+          break;
+        default:
+          eventData = {
+            type: data.type,
+            repCount: data.repCount || data.reps || data.rep_count || data.data?.repeats,
+            mistake: data.mistake || data.error || data.feedback,
+            totalReps: data.totalReps || data.total_reps || data.data?.repeats,
+            duration: data.duration || data.data?.time_spent,
+            message: data.message,
+            poseData: data.poseData || data.pose,
+          };
+      }
 
       this.eventHandlers.forEach(handler => handler(eventData));
     } catch (error) {
-      console.error('Error parsing KinesteX message:', error);
+      console.error('Error parsing KinesteX message:', error, event.data);
     }
   };
 
   initialize(config: KinesteXConfig, container: HTMLElement): Promise<void> {
     return new Promise((resolve, reject) => {
-      if (this.isInitialized) {
+      if (this.isInitialized && this.iframe) {
         resolve();
         return;
       }
 
       this.config = config;
 
-      const params = new URLSearchParams({
-        apiKey: config.apiKey,
-        company: config.company,
-        exercise: config.exercise,
-        userId: config.userId || 'demo-user',
-      });
-
       this.iframe = document.createElement('iframe');
-      this.iframe.src = `https://kinestex.vercel.app/camera?${params.toString()}`;
+      this.iframe.src = 'https://kinestex.vercel.app/';
       this.iframe.style.width = '100%';
       this.iframe.style.height = '100%';
       this.iframe.style.border = 'none';
-      this.iframe.allow = 'camera; microphone; accelerometer; gyroscope';
+      this.iframe.allow = 'camera; microphone; autoplay';
       this.iframe.setAttribute('allowfullscreen', 'true');
+      this.iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts allow-forms allow-popups');
+
+      window.addEventListener('message', this.handleMessage);
 
       this.iframe.onload = () => {
-        this.isInitialized = true;
-        window.addEventListener('message', this.handleMessage);
-        resolve();
+        const postData = {
+          userId: config.userId || 'demo-user-' + Date.now(),
+          company: config.company,
+          key: config.apiKey,
+          planC: config.exercise === 'squats' ? 'Fitness' : config.exercise,
+          age: config.age || 25,
+          height: config.height || 170,
+          weight: config.weight || 70,
+          gender: config.gender || 'Male',
+        };
+
+        setTimeout(() => {
+          if (this.iframe?.contentWindow) {
+            this.iframe.contentWindow.postMessage(postData, '*');
+            this.isInitialized = true;
+            resolve();
+          }
+        }, 500);
       };
 
       this.iframe.onerror = () => {
@@ -83,6 +143,13 @@ class KinesteXService {
 
       container.innerHTML = '';
       container.appendChild(this.iframe);
+
+      setTimeout(() => {
+        if (!this.isInitialized) {
+          this.isInitialized = true;
+          resolve();
+        }
+      }, 5000);
     });
   }
 
@@ -93,8 +160,8 @@ class KinesteXService {
     }
 
     this.iframe.contentWindow.postMessage(
-      JSON.stringify({ action: 'start', exercise: this.config?.exercise }),
-      'https://kinestex.vercel.app'
+      { action: 'start', exercise: this.config?.exercise },
+      '*'
     );
   }
 
@@ -105,8 +172,8 @@ class KinesteXService {
     }
 
     this.iframe.contentWindow.postMessage(
-      JSON.stringify({ action: 'stop' }),
-      'https://kinestex.vercel.app'
+      { action: 'stop' },
+      '*'
     );
   }
 
@@ -117,8 +184,8 @@ class KinesteXService {
     }
 
     this.iframe.contentWindow.postMessage(
-      JSON.stringify({ action: 'reset' }),
-      'https://kinestex.vercel.app'
+      { action: 'reset' },
+      '*'
     );
   }
 
