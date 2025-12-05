@@ -14,6 +14,10 @@ run = ["npm", "run", "start"]
 localPort = 5000
 externalPort = 80
 
+[[ports]]
+localPort = 44271
+externalPort = 3000
+
 [env]
 PORT = "5000"
 
@@ -37,3 +41,9 @@ author = "agent"
 task = "shell.exec"
 args = "npm run dev"
 waitForPort = 5000
+
+[userenv]
+
+[userenv.shared]
+VITE_KINESTEX_API_KEY = "YyPXAG4KTpftCQDYBgLsS4B4nd8Vg8Pa"
+VITE_KINESTEX_COMPANY = "BBELabs"
