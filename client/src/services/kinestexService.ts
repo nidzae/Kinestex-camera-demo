@@ -34,8 +34,11 @@ class KinesteXService {
 
   private sendMessage = () => {
     if (this.iframe?.contentWindow && this.postData) {
+      console.log('Sending KinesteX postData:', JSON.stringify(this.postData, null, 2));
       this.iframe.contentWindow.postMessage(this.postData, KINESTEX_URL);
-      console.log('KinesteX postData sent:', this.postData);
+      console.log('KinesteX postData sent successfully');
+    } else {
+      console.error('Cannot send message - iframe or postData not available');
     }
   };
 
@@ -46,10 +49,14 @@ class KinesteXService {
 
     try {
       const message = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
-      
+
       if (!message || !message.type) return;
 
-      console.log('KinesteX message received:', message);
+      console.log('KinesteX message received:', {
+        type: message.type,
+        data: message.data,
+        fullMessage: message
+      });
 
       switch (message.type) {
         case 'kinestex_loaded':
@@ -60,30 +67,30 @@ class KinesteXService {
         case 'successful_repeat':
           this.eventHandlers.forEach(handler => handler({
             type: 'rep_count',
-            repCount: message.data?.value || message.data?.reps || 1,
-            accuracy: message.data?.accuracy,
+            repCount: message.value || message.data?.value || message.data?.reps || 1,
+            accuracy: message.accuracy || message.data?.accuracy,
           }));
           break;
 
         case 'mistake':
           this.eventHandlers.forEach(handler => handler({
             type: 'mistakes',
-            mistake: message.data?.value || message.data?.mistake || 'Form correction needed',
+            mistake: message.value || message.data?.value || message.data?.mistake || 'Form correction needed',
           }));
           break;
 
         case 'exit_kinestex':
           this.eventHandlers.forEach(handler => handler({
             type: 'workout_complete',
-            duration: message.data?.time_spent || 0,
-            totalReps: message.data?.reps || 0,
+            duration: message.time_spent || message.data?.time_spent || 0,
+            totalReps: message.reps || message.data?.reps || 0,
           }));
           break;
 
         case 'error_occurred':
           this.eventHandlers.forEach(handler => handler({
             type: 'error',
-            message: message.data?.error || message.data?.message || 'An error occurred',
+            message: message.error || message.data?.error || message.data?.message || 'An error occurred',
           }));
           break;
 
@@ -105,16 +112,19 @@ class KinesteXService {
       this.config = config;
 
       this.postData = {
-        key: config.apiKey,
         userId: config.userId || 'demo-user-' + Date.now(),
+        key: config.apiKey,
         company: config.company,
-        style: config.style || 'dark',
-        currentExercise: config.exercise,
-        exercises: config.exercises || [config.exercise],
+        exercises: ['Squats'],
+        currentExercise: 'Squats',
         age: config.age || 25,
         height: config.height || 170,
         weight: config.weight || 70,
         gender: config.gender || 'Male',
+        lifestyle: 'Sedentary',
+        customParameters: {
+          style: config.style || 'dark',
+        },
       };
 
       window.addEventListener('message', this.handleMessage);
@@ -126,7 +136,7 @@ class KinesteXService {
       this.iframe.style.border = 'none';
       this.iframe.setAttribute('frameborder', '0');
       this.iframe.setAttribute('allow', 'camera; microphone; autoplay; accelerometer; gyroscope; magnetometer');
-      this.iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts');
+      this.iframe.setAttribute('sandbox', 'allow-same-origin allow-scripts allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox');
       this.iframe.setAttribute('allowfullscreen', 'true');
 
       this.iframe.onload = () => {
@@ -209,11 +219,18 @@ class KinesteXService {
 export const kinestexService = new KinesteXService();
 
 export function getKinesteXConfig(): KinesteXConfig {
-  return {
+  const config = {
     apiKey: import.meta.env.VITE_KINESTEX_API_KEY || '',
     company: import.meta.env.VITE_KINESTEX_COMPANY || '',
     exercise: 'Squats',
     exercises: ['Squats'],
     style: 'dark',
   };
+  console.log('Environment variables check:', {
+    hasApiKey: !!config.apiKey,
+    hasCompany: !!config.company,
+    apiKey: config.apiKey ? `${config.apiKey.slice(0, 5)}...` : 'MISSING',
+    company: config.company || 'MISSING',
+  });
+  return config;
 }

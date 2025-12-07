@@ -38,10 +38,12 @@ export function KinesteXCamera({
   }, [cameraState]);
 
   const handleEvent = useCallback((data: KinesteXEventData) => {
+    console.log('KinesteXCamera handleEvent:', data);
     switch (data.type) {
       case 'ready':
       case 'pose_detected':
         if (cameraStateRef.current !== 'active' && cameraStateRef.current !== 'complete') {
+          console.log('Setting camera state to ready');
           setCameraState('ready');
           onReady?.();
         }
@@ -77,6 +79,7 @@ export function KinesteXCamera({
         onWorkoutComplete?.(stats.totalReps, stats.duration);
         break;
       case 'error':
+        console.error('KinesteX error event:', data);
         setCameraState('error');
         setErrorMessage(data.message || 'An error occurred');
         onError?.(data.message || 'An error occurred');
@@ -86,16 +89,22 @@ export function KinesteXCamera({
 
   const requestCameraPermission = async () => {
     try {
+      console.log('Requesting camera permission...');
       setCameraState('initializing');
-      await navigator.mediaDevices.getUserMedia({ video: true });
-      
+      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+      console.log('Camera permission granted, stream:', stream);
+
       if (containerRef.current) {
         const config = getKinesteXConfig();
+        console.log('KinesteX config:', config);
+        console.log('Initializing KinesteX service...');
         await kinestexService.initialize(config, containerRef.current);
         kinestexService.addEventListener(handleEvent);
+        console.log('KinesteX service initialized, setting state to ready');
         setCameraState('ready');
       }
     } catch (error) {
+      console.error('Camera permission error:', error);
       setCameraState('error');
       setErrorMessage('Camera access was denied. Please enable camera permissions.');
       onError?.('Camera access denied');
