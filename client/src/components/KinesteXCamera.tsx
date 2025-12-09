@@ -37,6 +37,23 @@ export function KinesteXCamera({
     cameraStateRef.current = cameraState;
   }, [cameraState]);
 
+  // Use refs for callbacks to avoid recreating handleEvent on every render
+  const onRepCountRef = useRef(onRepCount);
+  const onMistakeRef = useRef(onMistake);
+  const onWorkoutCompleteRef = useRef(onWorkoutComplete);
+  const onReadyRef = useRef(onReady);
+  const onErrorRef = useRef(onError);
+  const repCountRef = useRef(repCount);
+
+  useEffect(() => {
+    onRepCountRef.current = onRepCount;
+    onMistakeRef.current = onMistake;
+    onWorkoutCompleteRef.current = onWorkoutComplete;
+    onReadyRef.current = onReady;
+    onErrorRef.current = onError;
+    repCountRef.current = repCount;
+  }, [onRepCount, onMistake, onWorkoutComplete, onReady, onError, repCount]);
+
   const handleEvent = useCallback((data: KinesteXEventData) => {
     console.log('KinesteXCamera handleEvent:', data);
     switch (data.type) {
@@ -45,13 +62,13 @@ export function KinesteXCamera({
         if (cameraStateRef.current !== 'active' && cameraStateRef.current !== 'complete') {
           console.log('Setting camera state to ready');
           setCameraState('ready');
-          onReady?.();
+          onReadyRef.current?.();
         }
         break;
       case 'rep_count':
         setRepCount(prev => {
           const newCount = data.repCount !== undefined ? data.repCount : prev + 1;
-          onRepCount?.(newCount);
+          onRepCountRef.current?.(newCount);
           return newCount;
         });
         setIsPulsing(true);
@@ -60,7 +77,7 @@ export function KinesteXCamera({
       case 'mistakes':
         if (data.mistake) {
           setCurrentMistake(data.mistake);
-          onMistake?.(data.mistake);
+          onMistakeRef.current?.(data.mistake);
           if (mistakeTimeoutRef.current) {
             clearTimeout(mistakeTimeoutRef.current);
           }
@@ -72,20 +89,20 @@ export function KinesteXCamera({
       case 'workout_complete':
         setCameraState('complete');
         const stats = {
-          totalReps: data.totalReps || repCount,
+          totalReps: data.totalReps || repCountRef.current,
           duration: data.duration || 0,
         };
         setWorkoutStats(stats);
-        onWorkoutComplete?.(stats.totalReps, stats.duration);
+        onWorkoutCompleteRef.current?.(stats.totalReps, stats.duration);
         break;
       case 'error':
         console.error('KinesteX error event:', data);
         setCameraState('error');
         setErrorMessage(data.message || 'An error occurred');
-        onError?.(data.message || 'An error occurred');
+        onErrorRef.current?.(data.message || 'An error occurred');
         break;
     }
-  }, [onRepCount, onMistake, onWorkoutComplete, onReady, onError, repCount]);
+  }, []); // No dependencies - uses refs for all external values
 
   const requestCameraPermission = async () => {
     try {
@@ -132,15 +149,20 @@ export function KinesteXCamera({
     kinestexService.resetExercise();
   };
 
+  // Store handleEvent in a ref for cleanup
+  const handleEventRef = useRef(handleEvent);
+  handleEventRef.current = handleEvent;
+
+  // Cleanup only on unmount
   useEffect(() => {
     return () => {
       if (mistakeTimeoutRef.current) {
         clearTimeout(mistakeTimeoutRef.current);
       }
-      kinestexService.removeEventListener(handleEvent);
+      kinestexService.removeEventListener(handleEventRef.current);
       kinestexService.destroy();
     };
-  }, [handleEvent]);
+  }, []); // Empty deps - only runs on unmount
 
   if (!isVisible) {
     return null;

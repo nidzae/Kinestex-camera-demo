@@ -117,6 +117,8 @@ class KinesteXService {
         company: config.company,
         exercises: ['Squats'],
         currentExercise: 'Squats',
+        // IF YOU WANT TO USE A VIDEO FEED INSTEAD OF CAMERA STREAM, UNCOMMENT THIS LINE 
+        // videoURL: "https://cdn.kinestex.com/uploads%2F2047b732-0206-4bb9-9e15-e92fddaabefb_jz73VFlUyZ9nyd64OjRb.mp4?alt=media&token=3135ff52-3014-43b2-938e-024c280f92e5",
         age: config.age || 25,
         height: config.height || 170,
         weight: config.weight || 70,
