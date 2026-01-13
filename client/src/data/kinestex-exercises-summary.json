@@ -1,0 +1,4827 @@
+{
+  "exercises": [
+    {
+      "id": "04Sgr5lfVgjbt8NWELvm",
+      "model_id": "uCSi6VI68yMOGP13ME4A",
+      "title": "Side Lunge March",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "0N1pEU2aGBsGKRsvarkC",
+      "model_id": "HLbL19UTbyeSPOBswlRI",
+      "title": "Table Pose Feet Touching",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Hamstrings",
+        "Quads",
+        "Chest",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "0e7H0bqwWIiDYZtcsfpA",
+      "model_id": "peHloOWUytNjKxq8NjwZ",
+      "title": "Squat Jump Tap",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "Glutes",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "0qKOdWZguwbinHOj1xv3",
+      "model_id": "peMjc577TtbeHnazTJ7R",
+      "title": "Pull-Over Maschine (Lat Pull Over)",
+      "body_parts": [
+        "Lats",
+        "Triceps",
+        "Shoulders",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "0teppZnVb7zwIjjZlH1u",
+      "model_id": "nzNAvTgjjQv06ai961Yb",
+      "title": "Barbell Romanian Deadlift",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "1Nj3pMgcJ9EN253YbALt",
+      "model_id": "KWCjg3Qeun4A2XeDebCx",
+      "title": "Neck Circling",
+      "body_parts": [
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "1tnhV2ewG6maI28NcGi9",
+      "model_id": "uNxLFVfVLE4POITCsQ5Y",
+      "title": "Lying Triceps Extension",
+      "body_parts": [
+        "Triceps",
+        "Forearms",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "1xoBdASsTiZExa1RfPEL",
+      "model_id": "kSWjwHASMzy9UhycTMNT",
+      "title": "Balance Lunge with Power",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "2DeAA7hnrt5O106uYXbR",
+      "model_id": "ug3W9I0bHr9HHQemDKEE",
+      "title": "Dancing Cactus",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Chest",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "2KwG3jJyT4w4upbaTTKd",
+      "model_id": "ylxIHUwCz8qyQoz2fp7e",
+      "title": "Reclined Cobler Pose",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "2L3vtZBro6GYOFXcZYwQ",
+      "model_id": "89YlKqymjPOz03WuaoYj",
+      "title": "Dog Pose",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "2X58HmozWCoCXzEwoXn4",
+      "model_id": "UxemWVHLvJoUyFu2CRTi",
+      "title": "Barbell Reverse Lunge",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Lower Back",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "2ZiUIu0mhDOO7j2PW3Kv",
+      "model_id": "CMAdik0L4Uv6qwNEG10L",
+      "title": "Half Squat Spread",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Calves",
+        "Abs",
+        "Hamstrings",
+        "Shoulders",
+        "Traps",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "2m3roEi3ZJtmLvcOzuhk",
+      "model_id": "NgA3CvdGh2ZP1zJL82GG",
+      "title": "Indian Push Ups",
+      "body_parts": [
+        "Triceps",
+        "Chest",
+        "Shoulders",
+        "Traps",
+        "Abs",
+        "Lower Back",
+        "Glutes",
+        "Hamstrings",
+        "Lats",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "2uUrl41XRObMY41jbFbD",
+      "model_id": "z6HGSxMcXAV44Ix8oqad",
+      "title": "Low Jacks",
+      "body_parts": [
+        "Lats",
+        "External Oblique",
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "33qTiXsUeqJWkmC2PL5j",
+      "model_id": "3AA6LqueVxwMR0aEp4LQ",
+      "title": "Russian Twists",
+      "body_parts": [
+        "Abs",
+        "Oblique",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "hard",
+      "position": "Lying"
+    },
+    {
+      "id": "37K8SaoS9w6Gvjh4Lg4U",
+      "model_id": "k78tDZ02xNMvqMRsmcYO",
+      "title": "Dumbbell Overhead Tricep Extension",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "3I5PC91NpcK8wZrW6EJl",
+      "model_id": "qTaBquD2gExcPuVP8f3D",
+      "title": "Elbow Knee Crunch",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Quads",
+        "Shoulders"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "3ThVDpawlEXVy1l0261x",
+      "model_id": "SaoPgEIZUcEm0ewvR4Af",
+      "title": "Stretching Arms Upward",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "4QY67vcg7NwbyHPGqlKF",
+      "model_id": "RLIdI6OCdmyGSWIxsxbz",
+      "title": "Crunch Extended Arms",
+      "body_parts": [
+        "Abs"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "4RqtHKoHA8nzegZQQjKP",
+      "model_id": "aJhoAnpsv3GtKXq8EoJR",
+      "title": "Hip Flexor Stretch",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "4ZIDykVFTmkZ706xdcdy",
+      "model_id": "jIUefrFjFkOQrWyLeOD1",
+      "title": "Supine Marching",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "4zvODU4vBBkY1snh1q90",
+      "model_id": "l4ew2y1C50Q8MiDQAKmF",
+      "title": "Dips Machine ( +assisted dips)",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "53nUiqZopqk7R6ONnZgA",
+      "model_id": "FYxPduv6HK6L9gvUHYqy",
+      "title": "Butterfly Sit Ups",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "56sgWpE962bNEwCwDfSQ",
+      "model_id": "iaeupcAfHJCGWSx9kvEf",
+      "title": "Triceps Raises with Dumbbell",
+      "body_parts": [
+        "Triceps",
+        "shoulder"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "5E7YB4dk56Tzoczqrhhx",
+      "model_id": "1ec1y17fIRlm2DntaycE",
+      "title": "Barbell Pendlay Row",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Shoulders",
+        "Lower Back",
+        "Forearms",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "5KtLRNt74BsINZvrcXIP",
+      "model_id": "Km9HqjflwozFz7CusL8o",
+      "title": "Standing Crawl Stroke",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Traps",
+        "Glutes",
+        "Hamstrings",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "5SdytyMewrEXd7Bzsl7C",
+      "model_id": "DeXl0sgQA99Px10bxjnc",
+      "title": "Bicycle Crunches",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Quads"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "5nJcxL01gW7sRuC12dFI",
+      "model_id": "0lzVnby7Yi5s59OX4NTG",
+      "title": "Horse Kick",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "5pdDRfeklUxLfIJ5w9t0",
+      "model_id": "2SIwPeHQ6LwKNlwico6g",
+      "title": "Elbow Windmill",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "5y4ApUrN1byKM1knEzie",
+      "model_id": "QJjO5CgIpN0D01NF8kXg",
+      "title": "Biceps Curl Machine",
+      "body_parts": [
+        "Forearms",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "65tvsFvWNIskqwlHv75b",
+      "model_id": "4yAPhdqz7iT7ajqMTYFL",
+      "title": "Band Skullcrusher",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "68UMpNlweGY7y9u8Ev1P",
+      "model_id": "ueTlFcfNeuJV6vFutsO4",
+      "title": "Leg Change Scrambler",
+      "body_parts": [
+        "External Oblique",
+        "Abs",
+        "Glutes",
+        "Shoulders",
+        "Hamstrings",
+        "Quads",
+        "Calves"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "6AB6rHVSKBJb2ckbp3Sh",
+      "model_id": "uNXO3JKjhq6liZq2k98r",
+      "title": "Side Stretch",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "6Rw9PkhGRYlIdazPEhft",
+      "model_id": "zDO9wAbc4dCaPa9S3eeH",
+      "title": "Posture Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lower Back",
+        "Chest",
+        "Neck"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "6UX49ssNEZ33Y3RjT2dO",
+      "model_id": "kjkjoZO7u46jmG8p429Q",
+      "title": "High Knees",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "Shoulders"
+      ],
+      "dif_level": "hard",
+      "position": "Standing"
+    },
+    {
+      "id": "6vhOi6xorHbECJBFGh4j",
+      "model_id": "2HCPNlDwfcx93fvtjTPn",
+      "title": "Back Neck Stretch",
+      "body_parts": [
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "70D8IdMfzMTNghh5xZu8",
+      "model_id": "GqsrToolu6w647bJriog",
+      "title": "Vertical Fold",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Hamstrings",
+        "Quads",
+        "Abs",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "7D5lSJvRMv6jDcmueNT2",
+      "model_id": "DCA27ONUTqXIBdNfI3XZ",
+      "title": "Band Rapunzel Pushdown",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "7RFc9GNVQT3lgixJ505h",
+      "model_id": "tScbCjg7rdNyRQFCFR7P",
+      "title": "High Plank Windmill",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Shoulders",
+        "Triceps",
+        "Chest",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "7WNW7Ac5WMX3F9L5d5Gm",
+      "model_id": "QWxKaIUP93n4CAFdmog5",
+      "title": "Walking Plank",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Triceps",
+        "Lower Back",
+        "Chest",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "7Wxdij35YJSjC8ZPHRO8",
+      "model_id": "NUDBHkFvicsmK7zKtkBs",
+      "title": "Lying Leg Curl",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Quads"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "7pd3mgYHSA7siVLnk013",
+      "model_id": "8M5nsjPDzyumtQUApNK2",
+      "title": "Head Turns",
+      "body_parts": [
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "88HHSoxW5f1LsL7zyxYC",
+      "model_id": "d0BlmUVVOYsUIposx9J9",
+      "title": "Deltoid Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "8aPfkXJsXYr3OtJPfYrq",
+      "model_id": "X6muErxLOqizLt41VMOQ",
+      "title": "Floor Dip and Reach",
+      "body_parts": [
+        "Gluts",
+        "Triceps",
+        "Chest",
+        "Shoulders",
+        "Forearms",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "8vtAdc7KyY6FGlhfcL6f",
+      "model_id": "eseEZBFYUQQs8rX4RTlm",
+      "title": "Spine Extension",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "94OvKQc8MfdJxYnBWcKR",
+      "model_id": "tzFQ6RaRilDtWgMOBb31",
+      "title": "Bodyweight Lunges",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Lower Back",
+        "Abs",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "94jWV0LbAiG02OrjHl4i",
+      "model_id": "ZyufDsS0KApAOSB9iNLH",
+      "title": "Barbell Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "9AhdbpLS6B1Wclrq3pJY",
+      "model_id": "i6HmyLRZfXkM2DJbV10m",
+      "title": "Hands Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "9M1uWg4gnzzGDTQ21Da6",
+      "model_id": "SPcedl0GsX2uoUPatwsE",
+      "title": "Head Tilting",
+      "body_parts": [
+        "Neck",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Seating"
+    },
+    {
+      "id": "9wLOgOylhSsNgp6uNBPq",
+      "model_id": "lsjljUuuXfxIxk9lDHGG",
+      "title": "Down Box",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "9xcBtx6UyL6zbS75ncDz",
+      "model_id": "QSWGt9mnVi2YbBFeifMg",
+      "title": "Lunge Squats",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "Glutes",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "9yYVgn0ADdVfVt0Qxv3v",
+      "model_id": "TGvfs37uDXPWFSfO0B9n",
+      "title": "Semicircle Head Turning",
+      "body_parts": [
+        "Neck",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "A0WUjVnQ1q2R5EghmTrq",
+      "model_id": "cyaaCbpzN9UCD7wFMtxJ",
+      "title": "Side Jumps",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "Abs",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "A7ZYEV9iHxFsYCV0PA19",
+      "model_id": "BY23iOexlWiWkL7WLU3d",
+      "title": "Cable Rope Face Pulls",
+      "body_parts": [
+        "Traps",
+        "Lats",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "AFlxzfpPQKI4Wu7YMVX7",
+      "model_id": "sNBYQHWWOKBhCvsjnh14",
+      "title": "Back Extension Machine",
+      "body_parts": [
+        "Lower Back",
+        "Glutes",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "AzrVGcfYkGSzfjddSa9V",
+      "model_id": "1OUlUe1VcjKVps4hDg6Y",
+      "title": "Forward Arm Circles",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "B9tA32mGP0iNqwPOZQZr",
+      "model_id": "tU6XmGcJrE5au5mG1fno",
+      "title": "Dumbbell Rolling Tricep Extension",
+      "body_parts": [
+        "Triceps",
+        "Chest",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "BBug4omNpxQjlJBRyrHc",
+      "model_id": "8jIxAYqPydhUWi2449GC",
+      "title": "Alternating Side Lunge",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Calves"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "BRnM888rJ6U49rDnRdNm",
+      "model_id": "te71O1Y5BQfZcya5Ww6s",
+      "title": "Sit Bow",
+      "body_parts": [
+        "Lower Back",
+        "Abs",
+        "Hamstrings",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "BRsx7ejV26v4ugrhCI7d",
+      "model_id": "pxSyBDjllOIdNh3d5WG0",
+      "title": "Hamstring Sit Back",
+      "body_parts": [
+        "Calves",
+        "Lower back",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "BUtobpFcPTRQBYjXsGoM",
+      "model_id": "LadZzFpVt3uMKC4TIw2Z",
+      "title": "Dumbbell Incline Bench Press",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "BprPV4kWqGe1tCVnvWQJ",
+      "model_id": "ORrMsQ0gwDcPeyP9BD8G",
+      "title": "Walking Lunges",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Quads",
+        "Calves"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "BwvBR3cHEgJ4I5PvFMru",
+      "model_id": "ybLyCN4wJI2elXVcPCHR",
+      "title": "Flutter Kicks",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Quads"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "BxML5iHrDYr8r9dnw3cs",
+      "model_id": "2EWXKENI18MSODaEoaW3",
+      "title": "Roll Outs",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Quads",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "BzZn4SH9kv0ptSOSl41R",
+      "model_id": "s0NQBOvcSOg9Qq6xVldd",
+      "title": "Hollow Hold",
+      "body_parts": [
+        "Abs",
+        "Quads",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "CW3Scrq2KwOzCGtex6eY",
+      "model_id": "1fF1YiMwWWqftNWKVwMW",
+      "title": "Diagonal Fold",
+      "body_parts": [
+        "Lower Back",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "CXPzSD3odfzVZ4DR0mQx",
+      "model_id": "Wfr2KnyqpY96iJz9vb7V",
+      "title": "Jump Twist",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Shoulders",
+        "Abs",
+        "External Oblique",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "CcfZsbD4d5hoDaqOyTEl",
+      "model_id": "aMieFPURB03K5sig1CtF",
+      "title": "Dumbbell Bulgarian Split Squat",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "CxAFPOmh3STfJkKUSakf",
+      "model_id": "RMVSvgjBcKa935EsSYnF",
+      "title": "Kettlebell Situp",
+      "body_parts": [
+        "Abs",
+        "Abductors"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "D7Eu4zlnSf35npz438hc",
+      "model_id": "JWAG3gp6wyLLZilAuODs",
+      "title": "Shoulder Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "DA7RItqWaxDWnDqSj96b",
+      "model_id": "9ialA5gokUAiBE64ZA5G",
+      "title": "Jumping Steps",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Calves"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "DBqJwZ6j3evyw5AcsWX9",
+      "model_id": "RQnY8ReWEARP4rmKisg3",
+      "title": "Superman",
+      "body_parts": [
+        "Shoulders",
+        "Shoulders",
+        "Hamstrings",
+        "Glutes",
+        "Abs",
+        "Lower Back",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "DCQsH4NPiDSu0U7f0tIj",
+      "model_id": "cMI8LPXPY3Ygc2UK1TXi",
+      "title": "Hammer Curl",
+      "body_parts": [
+        "Triceps",
+        "Biceps",
+        "Shoulders"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "DEs6CkK8DDRL1FcDvt90",
+      "model_id": "ztUuoZoxQt0bmaRmeB6j",
+      "title": "Chair Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Lower Back",
+        "Traps",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "DF7B1POo3bk65q60RP4b",
+      "model_id": "ZrReNTKXVbwpW7QOA92C",
+      "title": "Shoulder Roof",
+      "body_parts": [
+        "Shoulders",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "DqHstilhCg4DSNEMWsuP",
+      "model_id": "dqdj44wVy93zX3qzbWAQ",
+      "title": "Mountain Runner",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "External Oblique",
+        "Glutes",
+        "Abs",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "Dz81liHKZ8G3euyHOUTQ",
+      "model_id": "1hw9vlmPwS2E7IhHnHRO",
+      "title": "Knee Rotation Standing",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "E632TNHIb4cZV1c3y7dL",
+      "model_id": "TvlVIw4Uujjt4Zc85UN5",
+      "title": "Cable Low Single Arm Lateral Raise",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "EEwsCO8CHZ4vkWyCt0bM",
+      "model_id": "5wYCYmUi0pS4scpj8bUh",
+      "title": "Leg raises",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "EVJgYpU5WOdxanJoQOuJ",
+      "model_id": "S7MKqJrDnhgLYgPvhR5i",
+      "title": "Wide Leg Bend",
+      "body_parts": [
+        "Lower Back",
+        "Traps",
+        "Hamstrings",
+        "Quads"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "EZOOjvEUQbvpk7mbZQRy",
+      "model_id": "8oNWCybY88AhMwwIi6Ay",
+      "title": "Side Skiing with Balance",
+      "body_parts": [
+        "Quads",
+        "Calves",
+        "Glutes",
+        "Abs",
+        "Hamstrings"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "EdKLpH5WmzaFafvDdhUm",
+      "model_id": "O7f3uoCvl7sw5Z5I4KNJ",
+      "title": "Ball Kick",
+      "body_parts": [
+        "Quads",
+        "Abs",
+        "Glutes",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "FA5Sh5OIJU5NwojHDvZv",
+      "model_id": "kag9iJLwI9NBy4OVAN6R",
+      "title": "Barbell Hip Thrust",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "FCDGv3Pe7oc2KhAoh0GY",
+      "model_id": "993yMpJe2wJ8RhuBKTKU",
+      "title": "Roof Kickback",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Lower Back",
+        "External Oblique"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "FgNlwxZx5XO09GSlYTBT",
+      "model_id": "oulX96NMnVWrvyBR8LFB",
+      "title": "Full Squat on Place",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "FlX9SThimVFjHPei3ZMi",
+      "model_id": "KZ0N1E5NVPkXj9g2jDph",
+      "title": "Seated Forward Bend",
+      "body_parts": [
+        "Lower Back",
+        "Shoulders",
+        "Chest",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "Fuf8BYeO2KCLqDymd9q1",
+      "model_id": "UDA383Cq9LB9xOOLJcv6",
+      "title": "Elbow Cat Cow Pose",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "FxroZC0g05z9hbkFQxJk",
+      "model_id": "o64WFaupB1SGZXe4qarm",
+      "title": "Side Neck Stretch",
+      "body_parts": [
+        "Neck",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "GPCMvz51hu4AiiOqQ6Pf",
+      "model_id": "jrtqdjBjUPOw5WsCKvwO",
+      "title": "Sitting Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "GUropv4One2f6DqKVQSM",
+      "model_id": "YgVoOBwLVwFHc6kn9nH7",
+      "title": "Basic Crunch",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Traps"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "GnOKeY3TMPgCm9jPCJKn",
+      "model_id": "ISQhkLKpQzJqxbH7WcaY",
+      "title": "Barbell Bench Press (Flat & Incline)",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "GwP7FiK2h0rC0JegpBJ8",
+      "model_id": "anX5MMLYxrbt1MX2Wps8",
+      "title": "Triceps Extension Machine",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "GxJ1b36todiRqTm05Nqi",
+      "model_id": "bJbRnQhzok8x5jbNEV3l",
+      "title": "Overhead Arm Drop",
+      "body_parts": [
+        "Shoulders",
+        "Biceps",
+        "Forearms",
+        "Triceps",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "H3FYqaOzomGlbi6dqPhL",
+      "model_id": "7NcHVmSmGA9y8Pj2BtZt",
+      "title": "Standing One Foot",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Calves"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "H5guVukff3nobwV2fucn",
+      "model_id": "2oguGVuXkU9Dg88IbYei",
+      "title": "Rotational Arm Reach",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "HB4sPBrhggAMO3K1i2wQ",
+      "model_id": "PP8S5Xu9Rrp8svbFC0ON",
+      "title": "Sprinters Sit Ups",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Shoulders",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "HHbHQM9RyAp0oSbdIAYf",
+      "model_id": "iIPDlyfmMQ9X941qiEEh",
+      "title": "Chair Squat",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "HITHtA5dG7yYVh7oPzMO",
+      "model_id": "2ssix2kx9RzPQDwLwE9H",
+      "title": "Seated Spinal Twist",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lower Back",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "HNlujzmrL9Ys0kJMQPvF",
+      "model_id": "TT0uZRZrQBmCZGW4JGft",
+      "title": "Kettlebell Goblet Squat",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "HQE5BNO7Rt09Ma0IwmrP",
+      "model_id": "nBZ4BLjwhwI6FDTPYErT",
+      "title": "Kettlebell Clean & Press",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps",
+        "Lats",
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "HQxTByLCd81gROQY1Ckp",
+      "model_id": "NUozpz1YZlxcznzD7tsq",
+      "title": "Cactus Arms Rotations",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "HeMS17nF8tK1vCTjE48h",
+      "model_id": "7U8q2oL3T3zWfGcjLAQP",
+      "title": "Side Lunges",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "HvlEqymHgljWNH8ruecS",
+      "model_id": "JhJbDZTNsv06GhND8J9h",
+      "title": "Cable Crossover",
+      "body_parts": [
+        "Shoulders",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "Hxf8Ak76O7bN06nPu97C",
+      "model_id": "wejYdAaqYYXh3F6gFWVo",
+      "title": "Hip Lifting",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "I8k6uH95rbfUyHeZQhSs",
+      "model_id": "RU5B5O3k3gxY7BNMi9Bg",
+      "title": "Fronted Bent Elbows Raises",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Biceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "IB5XJ3BTExquZA5T4Wwx",
+      "model_id": "RI7Ngdp0OORu65Ey4tpt",
+      "title": "Neck Twist",
+      "body_parts": [
+        "Neck",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "IIRQKxDxkSpYe8Bc4ZUA",
+      "model_id": "0wJHT3t413ejKnIwd0qb",
+      "title": "Star Jump",
+      "body_parts": [
+        "Hamstrings",
+        "Shoulders",
+        "Lats",
+        "Quads",
+        "Glutes",
+        "Calves"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "IXhzMGeEDHAVJpTmD40y",
+      "model_id": "9dMfkRgjFSJKxSpS9iMA",
+      "title": "Overhead Arms Raise",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "IdXcNTR3SWM8aVNBCfjf",
+      "model_id": "aXMgik7A7qkdwW2erw3L",
+      "title": "Skiing",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "IslIg12fubDeQ9gpEqiy",
+      "model_id": "BFhc72BPPQE0gIFAT89f",
+      "title": "Spine Extension Facelying",
+      "body_parts": [
+        "Neck",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "Iy2wPm2AmMjgYsIHZ5Fc",
+      "model_id": "MxCxAB1qIZUfLoP2Zrub",
+      "title": "Dumbbell Kneeling Single Arm Row",
+      "body_parts": [
+        "Lats",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "JDxyPDThJAbdmHsGWXcq",
+      "model_id": "TnnR89UF3kwMHI1kuydv",
+      "title": "Toy Abs",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lats",
+        "Chest",
+        "Hamstrings",
+        "Quads",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "JL0ZSQOfKwOj1ChYSDlJ",
+      "model_id": "XhIHgFnLaxAOEPkkqCRt",
+      "title": "Oblique Stretch",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "JOq2F0RRD9YNOz35kFma",
+      "model_id": "H2w4CRLDgvPH0Rfzp5HK",
+      "title": "T-Bar Machine",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Biceps",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "JgfY34Ap3CiZNA2CeeEd",
+      "model_id": "HMdxF5beVbDMuY13npvB",
+      "title": "Hanging Squat with Ball",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "Jp3256DrYEziTuq8FEXz",
+      "model_id": "1QPPWgNxg7JCLj8gxTvz",
+      "title": "Leg Span with Torniquet",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "Jq9QSMHTCb3fauEwnERg",
+      "model_id": "4r8YfREbBkbVl7p1UAa1",
+      "title": "Stretching Sides",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Lower Back",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "K4TD0fXYUQt2yGcgc8j7",
+      "model_id": "XZvRnKFqOxo3rtdAaCAR",
+      "title": "Arms Circles",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Neck",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "KNCjGOHhVs0T7eeuxTZg",
+      "model_id": "GPit2SA00XoedvvMu8x9",
+      "title": "Yoga Backbend",
+      "body_parts": [
+        "Lower Back",
+        "Traps",
+        "External Oblique",
+        "Glutes",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "KZsHI6ueLs9BGCp7VhFN",
+      "model_id": "HlzKzbgopNHzZX4CEGlQ",
+      "title": "Kettlebell Skull Crusher",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "Kc3xWaU3fj3Ynft5hFXh",
+      "model_id": "DCFB77w2tLMezP702LzA",
+      "title": "High Knee Hands Up",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "KjQHOOA1EMYrW8U4hAIY",
+      "model_id": "jj3w7bAwj7cIRUURooRm",
+      "title": "Heel Touches",
+      "body_parts": [
+        "Abs",
+        "Shoulders",
+        "Lats",
+        "External Oblique"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "Kkf1nWBGL5eqc1NN705W",
+      "model_id": "EGiMylASZmGlkvGHp2rY",
+      "title": "Pistol Stretch",
+      "body_parts": [
+        "Neck",
+        "Shoulders",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "KlfvqppjiK9aKQH7FWrG",
+      "model_id": "J8hYzx486wNSZqYKJ8k0",
+      "title": "Slow Box",
+      "body_parts": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "KtGtIDtHSEsUslxGRR9s",
+      "model_id": "aqwQlHazBwQueiCz79En",
+      "title": "Kettlebell Deadlift (Single)",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "L3RhMbKTlrUMd1OYJUY6",
+      "model_id": "WZC7oPloLPaDCHwopNNC",
+      "title": "Standing Butterfly Stroke",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "LS3ebOX87MxxvwzaLvXO",
+      "model_id": "7qjYSUVZ8WCXuYeldSRI",
+      "title": "Dumbbell Row Bilateral",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "LaeAHiNZCAFdw7ISZ6y6",
+      "model_id": "4G8azljzXcyq5t5JAF6d",
+      "title": "Side Leg Raise",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "LegRBkfW27fVJ0h6oBIX",
+      "model_id": "Ol1mPYcmWS2jhmzjVUcC",
+      "title": "Knee to Elbow",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "LkbeUvoYxvqODDopI05P",
+      "model_id": "8aM3IxPRnb8KXa4zq9zr",
+      "title": "Overhead Clap",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "Lpj69yiHjexjwqpObpTT",
+      "model_id": "wKtZoRfAPxmnAYiiFcK3",
+      "title": "Lying Face Down Straight Leg R",
+      "body_parts": [
+        "Lower Back",
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "M7hSkIrpMzPWSiC4yLea",
+      "model_id": "hASCXB1E7dEDRm3oU31Q",
+      "title": "Lunge Hold",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Calves",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "MGQzh2YlDAaZ8FGgBfFI",
+      "model_id": "6GQ5kIz8IXtjWuEuBih9",
+      "title": "Kettlebell Russian Twist",
+      "body_parts": [
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "N7rfzZE9JsLNdfMrPNdo",
+      "model_id": "fQvVDRzzDMjlWKR2xjW2",
+      "title": "Sitting Arms Straight",
+      "body_parts": [
+        "Shoulders",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Seating"
+    },
+    {
+      "id": "N8ASxI2ehJ9LcdIhFKIf",
+      "model_id": "1abrUuqT7wvUSzhkbpGW",
+      "title": "Windmill with KB",
+      "body_parts": [
+        "Shoulders",
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "NIRt9t4UyYFuc6lkudrh",
+      "model_id": "GmHbEjhhIeTixqUuuSjt",
+      "title": "Squat Reach",
+      "body_parts": [
+        "Shoulders",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "NSCRYYKDRCzCTxEUxUuF",
+      "model_id": "1YtspQfzJ1AOiyGkiwEO",
+      "title": "Curling",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Shoulders",
+        "External Oblique",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "NgM5xU0Y0weNJAu7y4Xc",
+      "model_id": "rsGMgAAdPkuhqwtRVYEL",
+      "title": "Air Row",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Biceps"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "NiB9cmpFXgReYnJylE94",
+      "model_id": "GmHbEjhhIeTixqUuuSjt",
+      "title": "Floor to Overhead",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Abs",
+        "External Oblique",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "O5jbVPA1u6KPUPlcHWts",
+      "model_id": "S12u7MCfYgUAGzUjvzgI",
+      "title": "Double Crunch",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "P3ixTEhppQkU5T40DOw0",
+      "model_id": "oaYav9p9t8Rhiw6E33pd",
+      "title": "Back Raise",
+      "body_parts": [
+        "Lower Back",
+        "Glutes",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "PJtrWRBVFt0hGbKNQbXP",
+      "model_id": "b3009fLnulo8MbsviNsa",
+      "title": "Dumbbell Overhead Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "PUcldHiL0Zu8lBylY1FT",
+      "model_id": "6S9n1knQCOMyJ0mCOfG5",
+      "title": "Dancer",
+      "body_parts": [
+        "Glutes",
+        "Guads",
+        "Abs",
+        "Quads",
+        "Hamstrings",
+        "Chest",
+        "Shoulders",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "PUz6gJCK2f1w0NYD2jDz",
+      "model_id": "GsPdKsULanMK7nuOxDL8",
+      "title": "Dumbbell Step Up",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "PVGLHevddnPkGQv6cOik",
+      "model_id": "1mP9KHEtM0dUDEACHpO1",
+      "title": "Double Lumbar Vertebrae Warm Up",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Shoulders",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "PYz6lcgvHby7PO8i7Br0",
+      "model_id": "oY5SnhDU7v1yUEclljeT",
+      "title": "Pulling KB to Chest",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Biceps",
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "Pdj4KBFQMthgXaVw8sTp",
+      "model_id": "YuqZapZb0vZttoLdVcpt",
+      "title": "Neck Stretch",
+      "body_parts": [
+        "Neck",
+        "Traps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "PutyrhNBflxZUQvudCZ6",
+      "model_id": "xvgAOMsNOtnR7Y88ACOP",
+      "title": "Rowing Crunches",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "QKgjAemrODZJqtunhXkY",
+      "model_id": "j0enG2ICWys7ie16aysN",
+      "title": "KB Push Ups",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Triceps",
+        "Abs",
+        "External Oblique",
+        "Glutes",
+        "Lower Back",
+        "Quads"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "QOiTYLOcUdAPa6wwSrtY",
+      "model_id": "gJ4ME5WZ8SzgjEQGKiEr",
+      "title": "Barbell Overhead Press",
+      "body_parts": [
+        "Chest",
+        "Traps",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "QWzq0qUjhnMPJAwFKiR8",
+      "model_id": "VEAUqIEJidnxETKqaFFF",
+      "title": "Shaolin Rotation",
+      "body_parts": [
+        "External Oblique",
+        "Glutes",
+        "Lower Back",
+        "Shoulders",
+        "Neck"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "QZ34zwh8hAHGIrtfLi7j",
+      "model_id": "jN9MZz0QmBhLnowQwl8T",
+      "title": "Forward Bend",
+      "body_parts": [
+        "Lower Back",
+        "Calves",
+        "Hamstrings"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "QbUhjjiTAnyslWC4BmJW",
+      "model_id": "lN3crodivqM6ihhWCuke",
+      "title": "Butt Kickers",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "QmAZbrj5Tme5zBLgQ5ro",
+      "model_id": "UFdHCV3zFnxhha1msIVb",
+      "title": "Lying Leg Straightening",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "QnmHhT6ADwZEp6tgT7Nw",
+      "model_id": "lscX44W0DEDYrG7HEjJp",
+      "title": "Sitting Elbow Raises",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "RAKZfyWtmqz6kZg06psl",
+      "model_id": "TCF6lgc6S2RiGMGwUYZz",
+      "title": "Leg Press 45° and horizontal",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Adductors"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "RS9lnqYOXvp0sq3g5ndK",
+      "model_id": "i1xbVq8A1NRwDi6TcpYB",
+      "title": "Ab Crunch Machine",
+      "body_parts": [
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "RayNnIZ6x6fg2u6eBpa3",
+      "model_id": "GNBk07fEQd42yaJFTDEz",
+      "title": "Barbell Situp",
+      "body_parts": [
+        "Abs",
+        "Chest",
+        "Shoulders",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "RazDvPICkUpntMccNFRm",
+      "model_id": "p0rncd4Wg86gnp6koOew",
+      "title": "Standing Torso Twist",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Lower Back",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "Ri5fSuCXmfVxqZbnpvaC",
+      "model_id": "MitaklQWEc6t9ZiQGpzs",
+      "title": "Plow Pose",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Shoulders",
+        "Neck"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "S1zAbAMcmePNYTpI2yEE",
+      "model_id": "0vN85bYYshSv2wW5lviK",
+      "title": "Dumbbell Laying Reverse Fly",
+      "body_parts": [
+        "Lats",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "SJXWz1R4aBSmi941fZiQ",
+      "model_id": "a3DpeTIANd6ue1WTi0V5",
+      "title": "Crunch Reach",
+      "body_parts": [
+        "Abs",
+        "Neck",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "SLvOV2dEffdC3ABMLsYO",
+      "model_id": "ZOU8Bvpjg3QnMgycvqnM",
+      "title": "Abductor Machine",
+      "body_parts": [
+        "Abductors",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "SV3Q6lGP0O7W3vHKH4Ll",
+      "model_id": "tXB5NjHQwxU1bAUmvwTs",
+      "title": "Y Raise",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "SaSnhpT9T3VSyOA0VaC6",
+      "model_id": "gqwIckBlsb9l5DKLVkXO",
+      "title": "Barbell Upright Row",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "SmzvHYItNINBjrUoPt2d",
+      "model_id": "GbDgAfWLK2zRyFvwcueK",
+      "title": "Hamstring Curl",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "SpZe6u5d4DZDn9ZERD8I",
+      "model_id": "PGLZAvxxrf3FayrmCAaF",
+      "title": "Bent Over Back Fly",
+      "body_parts": [
+        "Shoulders",
+        "Lower back",
+        "Traps",
+        "Triceps",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "Srj2JGOulSQwD3dTLnj9",
+      "model_id": "wW8HDOVIGMEHUWhCVXNd",
+      "title": "Hand Walk outs",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Chest",
+        "Shoulders",
+        "Hamstrings",
+        "Calves",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "SsMJohZ0MbeLrhXZQ2GO",
+      "model_id": "r4FoOGMkONwmzJuCv0Y6",
+      "title": "Straight Leg Raise",
+      "body_parts": [
+        "Abs",
+        "Hamstrings",
+        "Quads",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "TAvbsQhBOcv2usqphrnk",
+      "model_id": "mzmvc4PM2SlvN01OiW95",
+      "title": "Camel Stretch",
+      "body_parts": [
+        "Lower back",
+        "Lats",
+        "Chest",
+        "Quads",
+        "Abs",
+        "Neck"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "TcZQ1SQSz0Mi7vkqWef9",
+      "model_id": "uvWBWw1ySBBc6AB3Ig3b",
+      "title": "Hip Thrust Maschine (Glute Drive)",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "UFcTGf3ZlC1x9ZO9k2hM",
+      "model_id": "St7PhFvvMwEyL0lpb2Xo",
+      "title": "Dumbbell Lateral Raise",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "UQJjugeuN6j86xprWF65",
+      "model_id": "1f5rPgdcNZ5JF2bBogfY",
+      "title": "Dumbbell Arnold Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "US66RvAfYG32klLJST1h",
+      "model_id": "jjudYesK7tZiDRcjpO6M",
+      "title": "Side Oblique Stretch",
+      "body_parts": [
+        "External Oblique",
+        "Lats",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "UWJvTVyez5g8nnWDFZOc",
+      "model_id": "0JrP3TOl42uLmEqZ2G92",
+      "title": "Band Glute Kickback",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Quads"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "Ugj2CUfZVByo0xmK7EvL",
+      "model_id": "3v18ixddkC0JbULTV8qv",
+      "title": "Barbell Pause Squat",
+      "body_parts": [
+        "Lower Back",
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "UqGs10cfhu3zpNAVvQmy",
+      "model_id": "ZhPHnApazTqZmRglHbpe",
+      "title": "180 Stretch",
+      "body_parts": [
+        "Chest",
+        "Traps",
+        "Lats",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "UuiK7osBtsVCPtlh97Tl",
+      "model_id": "l0O0ft8XLQvfdsihJJur",
+      "title": "High Plank",
+      "body_parts": [
+        "Abs",
+        "Shoulders",
+        "Chest",
+        "Triceps",
+        "Glutes",
+        "Quads"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "V7EP6UxGkjnHUGUWLfW0",
+      "model_id": "LxDAZBdeGegca3L14kRc",
+      "title": "Chair Perched Pigeon",
+      "body_parts": [
+        "Lower Back",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "VCJy9yTQTxsQVD7cK1fK",
+      "model_id": "epPw6Cfju5AtSzq0keUW",
+      "title": "Leg Lift Plank",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Lower Back",
+        "Hamstrings",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "VKq7DJTwTWKaYoASexep",
+      "model_id": "r8CqiwOIK906POG13EYF",
+      "title": "Cable Rope Overhead Tricep Extension",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "VQfGS1mk0CxPQ3XDlbpJ",
+      "model_id": "ySo4EDw8VTTwFkaytY7R",
+      "title": "Knee Elbow Crunch Standing",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Quads",
+        "Shoulders"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "VuU1mVkeAwMKnE0z1V1r",
+      "model_id": "S9Rohme2bw0MPsHmVBLv",
+      "title": "Beginners Mountain Climbers",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Shoulders",
+        "Glutes",
+        "Quads"
+      ],
+      "dif_level": "hard",
+      "position": "Lying"
+    },
+    {
+      "id": "VvNoqKOx9Sgjpp6EHs0D",
+      "model_id": "iViT1mKD0UlGWOVC7imx",
+      "title": "Lying Face Down Bent Leg Raise",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "Wd9oxYH4TMP7kIl0TOjG",
+      "model_id": "ErNptTXcFmc4w1jHhXJB",
+      "title": "Half Squat Leg Extension",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "WmHxIY4RU0eFH01bTMdN",
+      "model_id": "CF5g0fPvKWBpJhl3ZIq1",
+      "title": "Plank Arm Raises",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Triceps",
+        "External Oblique",
+        "Traps",
+        "Lats"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "Wpwep2aEQ7n3kEbNXnLo",
+      "model_id": "QWxKaIUP93n4CAFdmog5",
+      "title": "Elbow up",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Abs",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "Wudm5Rakns9rBPfATfmO",
+      "model_id": "ZZfrjn9IxqFnksbeNMEQ",
+      "title": "Gluteal Muscle Stretch",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "XH3ygnjekNT2GuA4KXeW",
+      "model_id": "LYJsj5LNUmhCsdGEPZyg",
+      "title": "Dumbbell Chest Fly (Flat & Incline)",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Biceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "XV6e58ZF2tjGoihA90Il",
+      "model_id": "EQXrTs7YhjKHeSq0inLL",
+      "title": "Dumbbell Romanian Deadlift",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "Xcv0EjqhEP7P34tl2RFJ",
+      "model_id": "kKSAoRZP1HHJV2SOYrGs",
+      "title": "Boat Pose",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "Y0VUbCUPI15iRpx7hVqB",
+      "model_id": "S9Rohme2bw0MPsHmVBLv",
+      "title": "Twisted Mountain Climber",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "External Oblique",
+        "Chest",
+        "Glutes"
+      ],
+      "dif_level": "hard",
+      "position": "Lying"
+    },
+    {
+      "id": "Y4y421p1YjUoqVcHd7sw",
+      "model_id": "vNTAm3S9D9BIPwC7LOXC",
+      "title": "Squat Into Star Pose",
+      "body_parts": [
+        "Shoulders",
+        "Quads",
+        "Calves",
+        "Glutes",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "YFgKRmezO32h7CiWnTP7",
+      "model_id": "VUQykOYClgVGqnzAkwhZ",
+      "title": "Walking Squats",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Calves",
+        "Abs",
+        "External Oblique",
+        "Quads"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "YLSnUHqoaZ2cijWecFkr",
+      "model_id": "qJIs2WGJ8fCdXeg9pgAl",
+      "title": "Fat Butterfly",
+      "body_parts": [
+        "Shoulders",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "YMluHJcgUg5E0t7Tb73g",
+      "model_id": "LzspeyC7fDhaLtJYJvvi",
+      "title": "Swallow Pose with Ball",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Lower Back",
+        "External Oblique",
+        "Abs",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "YRK7B9ZAK20kUV3Qhtej",
+      "model_id": "lTMjtzha3LGv0K1s2Gt2",
+      "title": "Dumbbell Forward Lunge",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "YgVwkqGFY2AU6siMmroZ",
+      "model_id": "S1VlWtAehkUffog0jcT6",
+      "title": "Squat Hold",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Shoulders",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "YkZNnVRVjTR6enUQWHMR",
+      "model_id": "6QtXv1wUS3tWpW01ub3e",
+      "title": "Squat with KB",
+      "body_parts": [
+        "Shoulders",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "YtfbOCdMh02ERtHEWNxM",
+      "model_id": "NGyxcgHzeJ0XOVA6LsG1",
+      "title": "Side Plank Knee Lift",
+      "body_parts": [
+        "Obliques",
+        "Shoulders",
+        "Hips",
+        "External Oblique",
+        "Glutes",
+        "Lats"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "ZGrnIUYoF5sHVIUkhYAU",
+      "model_id": "9CxeN7eo8h2o52qgcqC6",
+      "title": "Band Pull Apart",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "ZROjsDBJXgErtochakZy",
+      "model_id": "LOJAgEqmtX3d9sdJ8Cpr",
+      "title": "Band Pushup",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "ZVMeLsaXQ9Tzr5JYXg29",
+      "model_id": "ybdSQyx3FKOuOO617R1v",
+      "title": "Jumping Jack",
+      "body_parts": [
+        "Shoulders",
+        "Calves",
+        "Hamstrings",
+        "Quads"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "ZqT7hajNz1kB0MLgh0Zw",
+      "model_id": "M2SNT5TsgKv7ujMLnmYk",
+      "title": "Triceps  Extension",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Traps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "ZuaY9Hc96KvZqSI6rSqT",
+      "model_id": "Cg4cm5BawS5VRQJI3FcM",
+      "title": "Plank",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Shoulders",
+        "Glutes",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "ZvDGEHpbj5O3Vhb6sHvt",
+      "model_id": "0wJHT3t413ejKnIwd0qb",
+      "title": "Power Jack",
+      "body_parts": [
+        "Quads",
+        "Calves",
+        "Shoulders",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "a0Tujg7JsFAZnEskHz4o",
+      "model_id": "LApfx9Sx19jmiPcjMxhd",
+      "title": "T Raise",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "a1EK8WNAVymTZXwUH7BF",
+      "model_id": "MEsgtqHMGWg7bpXOfX7h",
+      "title": "Stretch and Embrace",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps",
+        "Chest"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "aUS4ZBwEBwzBwRssKhC6",
+      "model_id": "xHPAkH4WkCLHKKICUH73",
+      "title": "Knee Raise Arms Down",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "aarEt4rB9yPqnMcGK6JV",
+      "model_id": "E0C1wlakKcGL6oN2ZOda",
+      "title": "Punching Squat",
+      "body_parts": [
+        "Shoulders",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Triceps"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "agP9Cd9QXmqXrc2t765d",
+      "model_id": "4GFnMcW2MTfqOw06hQjs",
+      "title": "Dog Legs Up",
+      "body_parts": [
+        "Hamstrings",
+        "Lower Back",
+        "Glutes",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "asX9y7pbWMKn7y6L8zio",
+      "model_id": "c7toixQ7nXDVHCv7gFVp",
+      "title": "Butterfly Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "aseOVMuHZnPchnWv6EDO",
+      "model_id": "3YsEDpTAcQ51D1x0PDav",
+      "title": "Deep Squat Stretch",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "auYLngvypBcF1SNJS2fl",
+      "model_id": "t1bweCguU8HSzOXESY3k",
+      "title": "Plank Shoulder Taps",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "External Oblique",
+        "Triceps",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "avY29OhVGFbJJgM0EG4e",
+      "model_id": "a73qFfaRnOBPoQp5WeRd",
+      "title": "Walk Down to Plank",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "hard",
+      "position": "Standing"
+    },
+    {
+      "id": "b1h1HskmTqVwnkpSVVhy",
+      "model_id": "rO41cJnKIgCRBCVZjwfg",
+      "title": "Shoulder Opener",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "b2Nd3pXA7FXJNyzXqZMY",
+      "model_id": "KzFJQFJPUDGiOzmyxgdQ",
+      "title": "Hip Ups",
+      "body_parts": [
+        "Glutes",
+        "Lower Back",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "b2RtH72W0ssY1ne1uvjG",
+      "model_id": "F6Ha2eJM6pOhQsKWAB2l",
+      "title": "Swan Pose",
+      "body_parts": [
+        "Lower Back",
+        "Neck",
+        "Shoulders",
+        "Chest"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "bDRlbcvIdtwG1Fb5lQ0i",
+      "model_id": "7GcVDktIsahB6BL3UvAC",
+      "title": "Fallen Toy",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "bMnalPDPVTOid9wZe3Lj",
+      "model_id": "Uwaug1UIHZyReBSKjVpk",
+      "title": "Plank Side Jump",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "bXGpEqSgWxsrL8Ewl9SQ",
+      "model_id": "76VFIKOhlygiPx0Gf81f",
+      "title": "T Chin Ups",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Biceps"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "bil3TLfPpIu3IlgmzwgK",
+      "model_id": "F39N3OenF3NgraaQA7yr",
+      "title": "Split Squat",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "c5ifCweTIJV2BgMZGXXO",
+      "model_id": "j9ztwidaXNdcKlkOoQAB",
+      "title": "Bent Over Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps",
+        "Triceps",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "cCypveiRpVjnwRYLtSHl",
+      "model_id": "XmERcgAqEkMlFV1DTXNA",
+      "title": "Low Lunge",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "cEd0IEhZPlwswqcFdxJb",
+      "model_id": "ZJYhYZ24pSw2LQ9JyaCw",
+      "title": "Shoulder Wheel",
+      "body_parts": [
+        "Shoulders",
+        "Neck",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "cN7dN001HD7I70gOkLYn",
+      "model_id": "yVOd8mN7iNwL0WocRST6",
+      "title": "Sides of Chest",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "cv1LQtpMsgzYy3Oz4BPC",
+      "model_id": "PQoKgplT5vdQ6P2SMbfs",
+      "title": "Leg Extension",
+      "body_parts": [
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "cz5uMDwYuV7hgFqZYWFl",
+      "model_id": "awUNRgrZhlurQlCLPTYM",
+      "title": "Straight Arm Raise",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "d8L2KlVni7aDGr0oweHe",
+      "model_id": "wqSOii1atUJLeviKTcnA",
+      "title": "Bowling",
+      "body_parts": [
+        "Full Body"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "diH8Y3xQtEwPrPXezLY1",
+      "model_id": "SaoPgEIZUcEm0ewvR4Af",
+      "title": "Bent Elbows Raise",
+      "body_parts": [
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "duFya65rLVPt27PBZBez",
+      "model_id": "1sbX7jvL9SqYkb4qj1X6",
+      "title": "Lat Pulldown",
+      "body_parts": [
+        "Lats",
+        "Biceps",
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "e5t6tkBV3lD6V8u3STUj",
+      "model_id": "gLmNXn4jPU7vF44fYAc6",
+      "title": "Frog Swim",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "e6tbo1GA56QkZrhZ4PbT",
+      "model_id": "V7mZuHjg6Kkyc2KzixzX",
+      "title": "Side Kick",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "eBIJHWov9c4EY0Y9JtBu",
+      "model_id": "HMdxF5beVbDMuY13npvB",
+      "title": "Bodyweight Squats",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "eBp44kyNGvsOjHvsCJKj",
+      "model_id": "kdrNB8MbobJRbjkfhuG6",
+      "title": "Warrior II",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Shoulders",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "eL0mnWOLN0nmm8P7oF6N",
+      "model_id": "4G8azljzXcyq5t5JAF6d",
+      "title": "Side Leg Raise",
+      "body_parts": [
+        "Full Body"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "eLMgcZ3sONGmbritJZZe",
+      "model_id": "o41P31PSFEAVKvpaSMSm",
+      "title": "Lying Face Down Flat Leg Raise",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "eNJRfmpp9bb3PjPLPJhF",
+      "model_id": "Dp8U1U0QryuHsDZhTumi",
+      "title": "Back Plank Kick",
+      "body_parts": [
+        "Abs",
+        "Lower Back",
+        "Hamstrings",
+        "Glutes",
+        "Shoulders",
+        "Quads"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "eYXlnNSrIR5Tds1BmAyo",
+      "model_id": "6f87FpO8ULtzfoVFbErH",
+      "title": "X Pose",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Lats",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "ewzYmWeDEnNVWzHWC8e2",
+      "model_id": "0ke5ci3sSQdEGyP7aF9S",
+      "title": "Full Squat",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "External Oblique"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "fPxcVIprHXGU4XCkITYp",
+      "model_id": "DntKoHO9Zo3c1A1J7Nhw",
+      "title": "Lift Lunges",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "Calves",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "fYXTn78JEuLwEA6Ap8Pg",
+      "model_id": "mCdQosmJDKc0fPBhlBFp",
+      "title": "Seated Elbow Elevation",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "fpMMPHRR0fy5CWtNeKAL",
+      "model_id": "x4I2C8FEti9hK1TitBqD",
+      "title": "Knee Raise Clap Hands",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "fsELUdskOKw9zO9ZcCvt",
+      "model_id": "lrpEGGpAAgHQGmZbUHt3",
+      "title": "Side Knee Lift",
+      "body_parts": [
+        "Hamstrings",
+        "External Oblique",
+        "Glutes",
+        "Quads",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "g59nr32kGDISTkqJ5OtH",
+      "model_id": "ygX3CMZoGGB7G08AMnAT",
+      "title": "Pull-Up with and without asistance",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Shoulders",
+        "Biceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "g7EkXCFhhq3EDeijD4a2",
+      "model_id": "XlPlEj7GMoUrL1JwRGJi",
+      "title": "Cable Bar Reverse Grip Pushdown",
+      "body_parts": [
+        "Triceps",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "gJGOiZhCvJrhEP7sTy78",
+      "model_id": "tzFQ6RaRilDtWgMOBb31",
+      "title": "Lunges",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "gOyretXEWLglz3TaykKu",
+      "model_id": "D3nMJsR2f4odwpWx9KPS",
+      "title": "Forward Shoulders Warm up",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "gZ1pDaWECcWaOjXIa9IF",
+      "model_id": "JE4Gvw7QASyXclD7Vw8A",
+      "title": "Squat Thrusts",
+      "body_parts": [
+        "Shoulders",
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Lower Back",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "goAqXU53rXGIRSLicEPu",
+      "model_id": "KusblX05az0sU1AfVuhj",
+      "title": "Dumbbell Skullcrusher",
+      "body_parts": [
+        "Triceps",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "gp5mJgu6XVSUjsI9H5TB",
+      "model_id": "vRqA0uNeG8cdqpvVhPy4",
+      "title": "Plank Spider Crawl",
+      "body_parts": [
+        "Abs",
+        "Chest",
+        "Shoulders",
+        "External Oblique",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "h2oJnSv1F9W1ivaqPZC7",
+      "model_id": "ttzm1RM2MbRGIAhN5OZg",
+      "title": "Full Body Crunch",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "hard",
+      "position": "Lying"
+    },
+    {
+      "id": "hIZruFTu3a05rrrXE2o3",
+      "model_id": "7y4rrRDfbgFPNk5dGyR0",
+      "title": "On Place Lunge",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "hJQ6h0aByNz0QYaICUki",
+      "model_id": "p2vkTjMhZZK0jiyE6OmU",
+      "title": "High Knee Fast Feet",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "hMaP0qeR0jC7ZYYbUjw1",
+      "model_id": "cl2qIjenEC05o16uyRhK",
+      "title": "Bird Dog",
+      "body_parts": [
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Lower Back",
+        "Shoulders",
+        "Quads",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "hWdC9ZGSj5tKIn5EVL8v",
+      "model_id": "7U8q2oL3T3zWfGcjLAQP",
+      "title": "Side Lunge with Power",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "hkuPrTPM43Wb3spfBMMc",
+      "model_id": "uAxEsESLyemcsn0yJUtm",
+      "title": "Extended Arm Circles",
+      "body_parts": [
+        "Shoulders",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "iDu6TI3LEprG5bHNSNeO",
+      "model_id": "YwnV2LnnAuZ0h261dIgM",
+      "title": "Preacher Curl Machine",
+      "body_parts": [
+        "Forearms",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "iLK8JPwfFjWNDQABKnmT",
+      "model_id": "40DwIOcZcByCpIxBNr94",
+      "title": "Opposite Arm Circles",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "iOglfDfNpxVooXGiteZ2",
+      "model_id": "ttzm1RM2MbRGIAhN5OZg",
+      "title": "Wide Leg Double Crunch",
+      "body_parts": [
+        "Abs",
+        "Legs",
+        "Neck",
+        "Arms",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "iSVYwUORMHuHL2IwT0RQ",
+      "model_id": "CVtuUO15C7mb6gEcKyNG",
+      "title": "Band Kneeling Single Arm Pulldown",
+      "body_parts": [
+        "Lats",
+        "Shoulders",
+        "Biceps",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "iWv9SGKau5YK3xDeGTYp",
+      "model_id": "KdReKz5vR4cJBDmCAnql",
+      "title": "Seated Deltoid Stretch",
+      "body_parts": [
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "icHcARLG5PD5DyehHplF",
+      "model_id": "bT15JNWFTIBdPvimaJ7g",
+      "title": "Cancan Jump",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "ihCeSDoKrAwJTUvvVFHI",
+      "model_id": "I0BVVQL4j8BXYI6n1KWa",
+      "title": "Easy Sprinters Sit Ups",
+      "body_parts": [
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "izIl4Vd7hrvtCJglFyW8",
+      "model_id": "EtknyRvoUEXdVhAl3DQL",
+      "title": "Dips-Maschine (potentially assisted)",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "j1ynyqcBn9L7T3cASgR3",
+      "model_id": "7OJIRFb18KjLDttKt6fa",
+      "title": "Bent Over Twist",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lower Back",
+        "Shoulders"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "j70bKKH3dlDZ6OKcDzpe",
+      "model_id": "j0enG2ICWys7ie16aysN",
+      "title": "Knee Push Ups",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Triceps"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "jARJ2FGbJOxNQn9AZOcU",
+      "model_id": "fq6o6Rhjj2hm1qplwXSx",
+      "title": "Dumbbell Seated Overhead Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "jFLUowZ6nLDGbkC982qA",
+      "model_id": "kNNhZYUO70dHJCTB4d5J",
+      "title": "Dumbbell Sumo Deadlift",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Adductors",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "jGEkLdRBkGzSASGnw3Os",
+      "model_id": "P5Wg9jbuI1IWfsNxP5JI",
+      "title": "Arm Raise",
+      "body_parts": [
+        "Traps",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "jLFgiSPtef8vz4oqL37H",
+      "model_id": "ATA2bQCxTz81wIlYQR4f",
+      "title": "Pigeon Pose",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "jdJqgOmR8AU15mHbaaDX",
+      "model_id": "rqYUK2sgcyADsX2RpwkV",
+      "title": "Burpee",
+      "body_parts": [
+        "Full Body"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "jz73VFlUyZ9nyd64OjRb",
+      "model_id": "FnVw8iNoh9CoNzRtMTVN",
+      "title": "Squats",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "k4Rw3Mq7hBxtsMXwhzOw",
+      "model_id": "0Kw4HN6KIobHVKDjxkAl",
+      "title": "Rowing Machine",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Lats",
+        "Traps",
+        "Shoulders",
+        "Biceps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "kBqHY08YNNnAv79nJAaa",
+      "model_id": "CJf6PMM0VeOi9QBH8gw5",
+      "title": "Hip Thrust with Stretched Leg",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "kBumWKZw6lG0tdbIneeF",
+      "model_id": "uAxEsESLyemcsn0yJUtm",
+      "title": "Extended Arm Circles Out",
+      "body_parts": [
+        "Shoulders",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "kK04l7jocTFfSufz9oJ0",
+      "model_id": "fp3rB3xpgpIHV69eK0T8",
+      "title": "Frog Jump",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "Hard",
+      "position": "Standing"
+    },
+    {
+      "id": "kNgyL6smIgqZzD77EjIu",
+      "model_id": "92mR2v3uDZS42xsyzfX4",
+      "title": "Bridge Kick",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "kjddwRiQerfT4q5nl9Qq",
+      "model_id": "rwN2iKQkxuAcYHf8dutG",
+      "title": "Cycle Kicks",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lower Back",
+        "Quads",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "klLF660L84sYJrhjztia",
+      "model_id": "vgV9O6iVfwRVW9y1riDy",
+      "title": "Rotation Resistance",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "kqUnOupQHLARci7Rygm7",
+      "model_id": "bbsvLmnd2fR1JRCRjvIt",
+      "title": "Tiger",
+      "body_parts": [
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Hamstrings",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "l64AYEylbEQPE9L9nrSW",
+      "model_id": "u0lpJCYb9uh8qCsYSv3u",
+      "title": "Dumbbell Bench Press",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "l9e2F0hKR4H1Wjmrz6dz",
+      "model_id": "JmOwjBodT8dvZWcufHOs",
+      "title": "Dumbbell Front Raise",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "lE2Kqu4AS8cA1TUzzXhJ",
+      "model_id": "D3nMJsR2f4odwpWx9KPS",
+      "title": "Back Shoulders Warm up",
+      "body_parts": [
+        "Shoulders",
+        "Neck",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "lHtRMhYDKgupSmAYjcJ7",
+      "model_id": "lxKIzbGs8a5k0hSpZHnh",
+      "title": "C Stretch",
+      "body_parts": [
+        "External Oblique",
+        "Shoulders",
+        "Lower Back",
+        "Abs",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "lIVAHNOZhLEWpflC6vNl",
+      "model_id": "KZ8wDus6RafVw9FPFNzm",
+      "title": "Cat Cow Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Neck",
+        "Lower Back",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "lKfK55ucoLwePy1y4J7I",
+      "model_id": "sPI6tIlsnM3nAo7IhkpJ",
+      "title": "Threading the Needle",
+      "body_parts": [
+        "Shoulders",
+        "Neck"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "ld6CkptCzb0qh35FZ2Zk",
+      "model_id": "F6WcoXwvNKoFauVoCBz2",
+      "title": "Downward Facing Dog",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Abs",
+        "Calves",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "ldZ6xJKy7fgR5OrxrlVf",
+      "model_id": "ezxV4WMvGQ5sAox4c4xq",
+      "title": "Sky Touching",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Lower Back",
+        "Lats",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "mCJscaM2UKjof2rKScuL",
+      "model_id": "xeuV9ANwVIp8swCL5wYg",
+      "title": "Push Ups",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest",
+        "Biceps",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "mJCMtpGiun28Fphhdy09",
+      "model_id": "JSkzuM96XdtWFK5vbKSh",
+      "title": "Table Pose",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Abs",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "mlFjUkaruDJkZ2HkxNrv",
+      "model_id": "rqYUK2sgcyADsX2RpwkV",
+      "title": "Wide Leg Burpees",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Abs",
+        "External Oblique",
+        "Glutes",
+        "Chest",
+        "Triceps",
+        "Lower Back",
+        "Shoulders"
+      ],
+      "dif_level": "Hard",
+      "position": "Standing"
+    },
+    {
+      "id": "n4HeVxq9GC3Y1BBqdrqe",
+      "model_id": "ZUOdG9J7nYYra353QSyK",
+      "title": "Back Stretch with Towel",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "n885BvrXhd0omshztTHf",
+      "model_id": "4680aDWvoWTpQg95c7JJ",
+      "title": "Double Leg Half Squat",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Calves",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "nKcnl0o7hvqfBkIPBIdb",
+      "model_id": "ecDQgF6JCg5GLTk77sJt",
+      "title": "Seated Calf Raise",
+      "body_parts": [
+        "Calves"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "oOjNgazKnCMRfvUPffZL",
+      "model_id": "UVwNjifQkDguDTblU7lr",
+      "title": "Plank Toe Touch",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Hamstrings",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "oevUckN6dNbYYEFK2iId",
+      "model_id": "5R2i93x79vxYeVITle2P",
+      "title": "Eagle Pose",
+      "body_parts": [
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "ogG14LsprnLPWaYeHVKh",
+      "model_id": "NslGzFPlXIZbVZgGzBX5",
+      "title": "Triangle Pose",
+      "body_parts": [
+        "Shoulders",
+        "Quads",
+        "Hamstrings",
+        "Lower Back",
+        "Glutes",
+        "Chest",
+        "Neck"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "onvwzIsY3Gi4QYmku17d",
+      "model_id": "IEPxOFCTTk9FzBLoMDkt",
+      "title": "Jumping Squats",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "oybWBWQCCNKiQEx88jRd",
+      "model_id": "X35NirF0cP1erFFjhwcz",
+      "title": "Barbell Front Squat",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "pBJEfYPhHbMbOUDRnlyq",
+      "model_id": "QqRWG0KQZ9vyLj9LrniZ",
+      "title": "Forward Fold",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Calves",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "pClHGtPvuAhM07CdWCEc",
+      "model_id": "1sbX7jvL9SqYkb4qj1X6",
+      "title": "Close Grip Pulldown",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Biceps",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "pIyajPTCGFBGt127igkQ",
+      "model_id": "ORrMsQ0gwDcPeyP9BD8G",
+      "title": "Reverse Lunges",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Calves",
+        "Lower Back",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "pLWaX2yB0c4Va0YMbjyD",
+      "model_id": "kWl9gcP3chc7ukDZMH2b",
+      "title": "Triceps Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "easy",
+      "position": "Seating"
+    },
+    {
+      "id": "pPkI86O2QxBqyUY8Cj1h",
+      "model_id": "4zmVvisYKSCKRdN0ZPmL",
+      "title": "Kettlebell Single Arm Row",
+      "body_parts": [
+        "Lats",
+        "Biceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "pRaUAXa4lrgtyIRWNkYs",
+      "model_id": "9PmBXeamvaESlhntBvwD",
+      "title": "Wide Leg Squats",
+      "body_parts": [
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "pkL2wTrudAiY6mSSYzBc",
+      "model_id": "eIxlBvpQVvgzg5WTiH3X",
+      "title": "Hamstring Stretch",
+      "body_parts": [
+        "Hamstrings",
+        "Lower Back",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "pym3FKV2qyQCUWFMIxC2",
+      "model_id": "q7NzakY38ocPrt2fNj6d",
+      "title": "Adductor Machine",
+      "body_parts": [
+        "Adductors",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "q0ODLuEIiZw3BuVwXTrq",
+      "model_id": "ETEDdBGKXq1nTeeMKvWc",
+      "title": "Sitting Full Stretch",
+      "body_parts": [
+        "Hamstrings",
+        "Lower Back",
+        "Shoulders"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "q22Q8lRK2j83Jh2UGnnF",
+      "model_id": "KJusEf5OpsOy6v11qCHz",
+      "title": "Seated Core Twist",
+      "body_parts": [
+        "External Oblique",
+        "Lower Back",
+        "Shoulders",
+        "Hamstrings",
+        "Neck"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "qdnoJUxPaXFUl0smy5ET",
+      "model_id": "gv4f8oGIgXMNLPaY4m0W",
+      "title": "Rear Delt Machine",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "qhPmZ3nZVe0KsrjyJwo2",
+      "model_id": "fp3rB3xpgpIHV69eK0T8",
+      "title": "Back Forth Jump",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "qsBCzwveOLMfbotS7YOJ",
+      "model_id": "Is9cOu3jKpcdmgZDoKXF",
+      "title": "Dumbbell Hammer Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "r4leNgCEzdLcsOIivZVm",
+      "model_id": "M9E9zuMf8NtoHzY0vBNd",
+      "title": "Turning 180 Jump Squats",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Hard",
+      "position": "Standing"
+    },
+    {
+      "id": "r7JocLtjU5etvHr6HO8J",
+      "model_id": "rqYUK2sgcyADsX2RpwkV",
+      "title": "Beginner Burpee",
+      "body_parts": [
+        "Full Body"
+      ],
+      "dif_level": "hard",
+      "position": "Standing"
+    },
+    {
+      "id": "rFYfcEvJI0m1OH5j4pSi",
+      "model_id": "KQjTuMwSoVw7fOBjbDb5",
+      "title": "Hip Thrust",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Lower Back",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "rzhwmjWHlTtVrDMoFUHY",
+      "model_id": "MRp2EcM9MBmxKozBxBRb",
+      "title": "Toe Touch Walk",
+      "body_parts": [
+        "Glutes",
+        "Lower Back",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "s58hr3fNxA4UP7IIr1dY",
+      "model_id": "Gu8VeipnVoyg2jIebUYm",
+      "title": "Kettlebell Swing",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings",
+        "Quads",
+        "Lower Back",
+        "Lats",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "s9KfNPi0yzeVEh4dMRTZ",
+      "model_id": "K4NRS7yUJya5NbSPRc1h",
+      "title": "Side Kick Squats",
+      "body_parts": [
+        "Quads",
+        "Glutes",
+        "Hamstrings",
+        "Calves",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "sTSaPtc7MXIBR3cYYvdH",
+      "model_id": "1Dbgdeh6wfblZwReVgZz",
+      "title": "Ball in Ball",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "Abs",
+        "External Oblique",
+        "Chest"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "seZ0wkPOYrt4t7oPNn9g",
+      "model_id": "DzwQSm4fW5Jz4tdd47jh",
+      "title": "Hip Thrust Foot to Foot",
+      "body_parts": [
+        "Hamstrings",
+        "Lower Back",
+        "Glutes",
+        "External Oblique",
+        "Abs"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "smaX1QWVOa51nK95XsPP",
+      "model_id": "INO83xY8n2iQYt0VNGXw",
+      "title": "Incline Chest Press",
+      "body_parts": [
+        "Shoulders",
+        "Chest",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "snQYyyRhBCE4Y1uWDOS9",
+      "model_id": "xCNPRCafBOFczlnkjvwn",
+      "title": "Kneeling Hamstring Stretch",
+      "body_parts": [
+        "Calves",
+        "Lower back",
+        "Hamstrings",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "sqWZzgc0CCSdEUcKK7zv",
+      "model_id": "j4uQlfZykEHYwnNQt1d9",
+      "title": "Cross Abs",
+      "body_parts": [
+        "Abs",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "t3oMgISJWSoafckzx5E2",
+      "model_id": "Dz25TeJ0Ktbv2ct3W3U5",
+      "title": "Double Horse Kick",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "t4R2zpLI1YVLfQ0ZfQ1q",
+      "model_id": "2t6tQHHzdixNaQfJri9e",
+      "title": "Dumbbell Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "tBjX9151wEejqaWL5Lb5",
+      "model_id": "LzspeyC7fDhaLtJYJvvi",
+      "title": "Swallow Pose",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Glutes",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "tX1hNnoong70sfb8dBSF",
+      "model_id": "leJllI9JlfhEuIMYBA77",
+      "title": "Thoracic Vertebrae Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Abs",
+        "Neck",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "tc0YgbVAEktgywzrSCHR",
+      "model_id": "SAyv9uNLgRzV9ZgHVV2z",
+      "title": "Knee Pull Out",
+      "body_parts": [
+        "Hamstrings",
+        "Quads"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "tdzFkcs86Ay9oysFe5nV",
+      "model_id": "wlkgGS3ju51G2mWQh7NG",
+      "title": "Penguin Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "uAmelsJ3oWcolOidtj6q",
+      "model_id": "JJjusnSfKHy07Qsfuxg4",
+      "title": "Chair Dips",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "uAuh3u1OuXqQwRRQKD7W",
+      "model_id": "E5txYIqmAQXcQyRZo0bX",
+      "title": "Lunge with Jump",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "uDg8MLV3JTCVpvrn1AEP",
+      "model_id": "7U8q2oL3T3zWfGcjLAQP",
+      "title": "Side Skiing",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Calves",
+        "Abs",
+        "External Oblique",
+        "Shoulders"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "uJAkqH7BuAEpRN0zLWUU",
+      "model_id": "INWhlNfl6A0xuLBs9xDZ",
+      "title": "Windmill",
+      "body_parts": [
+        "Shoulders",
+        "Hamstrings",
+        "Abs",
+        "External Oblique",
+        "Lats",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "uSFSwNYZYjQxA1tCehuX",
+      "model_id": "n8DgM28H0bujuQ2oxykE",
+      "title": "Side Bridge",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "uU3112rCCQdyRcYJBUGb",
+      "model_id": "cWfpNfFVOS53Z7UlkN8X",
+      "title": "Leg Extension Gym",
+      "body_parts": [
+        "Quads"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "uhsSf8RmIjbgRpPB5eFg",
+      "model_id": "HMdxF5beVbDMuY13npvB",
+      "title": "Squat with Ball",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Lower Back",
+        "Abs"
+      ],
+      "dif_level": "hard",
+      "position": "Standing"
+    },
+    {
+      "id": "ujWmkS7ByR8gLUtyVJyn",
+      "model_id": "UZfHd7rIxyc94TUV5Ugr",
+      "title": "Pulse Crunches",
+      "body_parts": [
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Lying"
+    },
+    {
+      "id": "uk624ZhTPPEmMlQYSeJn",
+      "model_id": "ex8OZIYMK5UTQWfHk2Q5",
+      "title": "Barbell High Bar Squat",
+      "body_parts": [
+        "Lower Back",
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "ulJUHbR4rwGqyYP3qGJX",
+      "model_id": "sdQVoQ3fea8lO3O3a8Py",
+      "title": "Side Step Toe Taps",
+      "body_parts": [
+        "External Oblique",
+        "Quads",
+        "Abs",
+        "Glutes",
+        "Hamstrings",
+        "Calves"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "vMqxZBgluVKROVQ6OGrM",
+      "model_id": "KiSzr0SY1DI5qdKT8oui",
+      "title": "Barbell Bent Over Row",
+      "body_parts": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "vQehYlaVgUrWqtKRDb0T",
+      "model_id": "FQg69GBsQeU1B3Y19Uw9",
+      "title": "Dumbbell Twisting Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "vYFWna7xM0LbztMXvto0",
+      "model_id": "yiZWwidmmAIO6NJJ9vDx",
+      "title": "Overhead Press",
+      "body_parts": [
+        "Shoulders",
+        "Triceps",
+        "Chest",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "vh6x57FT4WKRtGiMROeP",
+      "model_id": "7pzFLi2PNoHN0Ct46u6s",
+      "title": "Seated Row",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Biceps",
+        "Shoulders"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "vhBXapuHe7KgbZv8jE62",
+      "model_id": "NILpA7POcK8jWCI9fa3F",
+      "title": "Dumbbell front Raises",
+      "body_parts": [
+        "Shoulders",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "w0QsFdVmoW1PCVGDEwgC",
+      "model_id": "ZcEbA57G2ExoBsHXNKkl",
+      "title": "Barbell Stiff Leg Deadlifts",
+      "body_parts": [
+        "Hamstrings",
+        "Glutes",
+        "Lower Back"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "wEwb7PwkrirNsY79qyPC",
+      "model_id": "jX5zy5BKz3S2OtLRqSbT",
+      "title": "Bent Over Dumbbell Row",
+      "body_parts": [
+        "Lats",
+        "Traps",
+        "Biceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "wQiISjclaIBEOtPJBisH",
+      "model_id": "HMdxF5beVbDMuY13npvB",
+      "title": "Interval Squat with Hanging",
+      "body_parts": [
+        "Quads",
+        "Abs",
+        "Glutes",
+        "Lower Back",
+        "Hamstrings"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "wr2GIlGclLgt0Cli2nyZ",
+      "model_id": "bvBZUPtAiVKKOGXpSOjj",
+      "title": "Chair Head Sway",
+      "body_parts": [
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "wy5vuGS3h11czmi4GszU",
+      "model_id": "WBo4pNmlry99L7EcK69N",
+      "title": "Back Stretch",
+      "body_parts": [
+        "Shoulders",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "wyZctfikIUHAOcN4nW31",
+      "model_id": "LApfx9Sx19jmiPcjMxhd",
+      "title": "Lying Butterfly",
+      "body_parts": [
+        "Shoulders",
+        "Traps",
+        "Neck"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "x5spoXQ9t7f6EOcgSHhs",
+      "model_id": "VXDcrlBsVWk3tzd5ArLE",
+      "title": "KB Lifting",
+      "body_parts": [
+        "Abs",
+        "Shoulders",
+        "Forearms",
+        "Glutes",
+        "Hamstrings",
+        "Lower Back",
+        "Quads",
+        "Traps",
+        "Triceps"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "x8b07HvhvEMrOqdF6tXx",
+      "model_id": "JbhgcQtIJm0s0gTQ1ncl",
+      "title": "Hip Stretch",
+      "body_parts": [
+        "Quads",
+        "Hamstrings",
+        "External Oblique"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "xB3q7QN5tTCyUv5yHThC",
+      "model_id": "WBo4pNmlry99L7EcK69N",
+      "title": "Wide Legged Bend",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Calves",
+        "Glutes"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "xBno2uL7od8Gw4m3sfAt",
+      "model_id": "7xHHU9fwrES4sUWLN6IX",
+      "title": "Reverse Snow Angels",
+      "body_parts": [
+        "Shoulders",
+        "Lats",
+        "Traps"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "xCsdI9GGcn7jyGPjcept",
+      "model_id": "sZk8uyezwunUUtA3y2bc",
+      "title": "Glute Kickback Machine",
+      "body_parts": [
+        "Glutes",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "xDD61oZBAakaKGgZNz6G",
+      "model_id": "QALxopX1Fdrt6bSfkEIZ",
+      "title": "Inner Thigh Raises",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "xzT4KoflmSNaJQVjxxwB",
+      "model_id": "ymRNVQNRkBkrtKYUhHrX",
+      "title": "Lateral Dumbbell Raises",
+      "body_parts": [
+        "Shoulders",
+        "Lats"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    },
+    {
+      "id": "xzWKXvI12pnwWaESF4dk",
+      "model_id": "6oeUBmzHC9NeoqN0fE4O",
+      "title": "Lying Leg Lift",
+      "body_parts": [
+        "Quads",
+        "Abs",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "y0oERCCkJEzxoUD0gWXR",
+      "model_id": "sSUCRbThVzoDjdYpR0b4",
+      "title": "Double Knee Lift",
+      "body_parts": [
+        "Abs",
+        "Glutes",
+        "Quads",
+        "External Oblique",
+        "Lower Back"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "y7YAGi1sUagGxNYf1OYU",
+      "model_id": "1OUlUe1VcjKVps4hDg6Y",
+      "title": "Backward Arm Circles",
+      "body_parts": [
+        "Shoulders",
+        "Traps"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "yGYxDjxzeyDIVrlimzm4",
+      "model_id": "0z5Rn078ZXmyPrfzglou",
+      "title": "Barbell Low Bar Good Morning",
+      "body_parts": [
+        "Lower Back",
+        "Hamstrings",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "yWHamGKY3ycqyYJ4U3Rb",
+      "model_id": "DQ23aAo9lXshaHM87cNq",
+      "title": "Leg Lifting on Flow",
+      "body_parts": [
+        "Lower Back",
+        "Quads",
+        "Abs"
+      ],
+      "dif_level": "easy",
+      "position": "Sitting"
+    },
+    {
+      "id": "yWNFw7V2rcbFziwOOt5M",
+      "model_id": "C8chidrYfcoV54GWEWCf",
+      "title": "Ball Stretch",
+      "body_parts": [
+        "Shoulders",
+        "Lower Back",
+        "External Oblique"
+      ],
+      "dif_level": "medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "ybMkaJmgSDRKu3KwnEos",
+      "model_id": "LnIwCY7s656zeLLH32R4",
+      "title": "Kettlebell Concentration Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "yh4Wt3mI3m5MPWfhU6l0",
+      "model_id": "dMqO85zZSd28pHgzn5IT",
+      "title": "Reachers",
+      "body_parts": [
+        "Shoulders",
+        "Lats"
+      ],
+      "dif_level": "easy",
+      "position": "Lying"
+    },
+    {
+      "id": "yiLOQOrJUaPPOllttnGo",
+      "model_id": "kfqyEdUwdbg2oxLmx6PT",
+      "title": "Side Lunge with Jump",
+      "body_parts": [
+        "Calves",
+        "Hamstrings",
+        "Quads",
+        "Glutes",
+        "Abs",
+        "External Oblique"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "ynRM3HbkBLtuUT1Qd1Rc",
+      "model_id": "VNYA1OKD94KUG4xPecvt",
+      "title": "Supported V Ups",
+      "body_parts": [
+        "Lower Back",
+        "Abs",
+        "Glutes"
+      ],
+      "dif_level": "Medium",
+      "position": "Lying"
+    },
+    {
+      "id": "z3mxpSVOZrmmunLEup8k",
+      "model_id": "wM7pnccLsTjOCRIgyezL",
+      "title": "Burpee Squat Hold",
+      "body_parts": [
+        "Full Body"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "z7KCZIwrkJz7rLbz9EM0",
+      "model_id": "t2PhpYPzs9uaVlwik71p",
+      "title": "Biceps Curl",
+      "body_parts": [
+        "Biceps",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Sitting"
+    },
+    {
+      "id": "zED8MBgquf0ypYUZbvWh",
+      "model_id": "nAIyZNnjAoPWkGvpUaEE",
+      "title": "Kettlebell Single Arm Reverse Lunge",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings"
+      ],
+      "dif_level": "easy",
+      "position": "Standing"
+    },
+    {
+      "id": "zNIXsU2KPwVetHDUbrpf",
+      "model_id": "KS3gdooWO9kgxMldpfO8",
+      "title": "Barbell Deadlift",
+      "body_parts": [
+        "Glutes",
+        "Quads",
+        "Hamstrings",
+        "Lower Back",
+        "Traps",
+        "Forearms"
+      ],
+      "dif_level": "Medium",
+      "position": "Standing"
+    },
+    {
+      "id": "ziHJQSaNPua5ukswqkh4",
+      "model_id": "cMI8LPXPY3Ygc2UK1TXi",
+      "title": "Biceps Curls",
+      "body_parts": [
+        "Shoulders",
+        "Forearms",
+        "Biceps"
+      ],
+      "dif_level": "medium",
+      "position": "Standing"
+    }
+  ],
+  "totalCount": 374
+}
