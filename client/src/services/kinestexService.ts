@@ -86,11 +86,30 @@ class KinesteXService {
     }, 500);
   };
 
+  // Track seen message types for raw logging (avoid spamming the same type)
+  private seenRawTypes: Set<string> = new Set();
+
   private handleMessage = (event: MessageEvent) => {
     // Only accept messages from official KinesteX domains
     if (!event.origin.includes('ai.kinestex.com') && !event.origin.includes('kinestex.vercel.app')) {
       return;
     }
+
+    // === RAW EVENT LOG — log EVERY message before any parsing/filtering ===
+    try {
+      const raw = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+      const rawType = raw?.type || 'NO_TYPE';
+      if (!this.seenRawTypes.has(rawType)) {
+        this.seenRawTypes.add(rawType);
+        console.log(`[RAW-NEW-TYPE] "${rawType}" — full payload:`, JSON.stringify(raw, null, 2));
+      } else {
+        // Still log every message but condensed (type + top-level keys only)
+        console.log(`[RAW] "${rawType}" keys:`, Object.keys(raw));
+      }
+    } catch {
+      console.log('[RAW] non-JSON event.data:', event.data);
+    }
+    // === END RAW EVENT LOG ===
 
     try {
       const message = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
