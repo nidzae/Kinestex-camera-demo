@@ -39,10 +39,10 @@ export interface KinesteXEventData {
 
 export type KinesteXEventHandler = (data: KinesteXEventData) => void;
 
-// KinesteX SDK URL with configuration flags
+// KinesteX SDK URL
 // NOTE: Pose data (includePoseData) is NOT currently working - see POSE_DATA_NOTES.md
-// Voice muting flags also not fully effective - user muted laptop as workaround
-const KINESTEX_URL = 'https://ai.kinestex.com/camera?showSilhouette=false&isOnboarding=false&hideMistakesFeedback=true&mute=true&includePoseData=poseLandmarks,worldLandmarks,angles';
+// Audio muting is handled via currentExercise="Pause Audio" at session start
+const KINESTEX_URL = 'https://ai.kinestex.com/camera?showSilhouette=false&isOnboarding=false&includePoseData=poseLandmarks,worldLandmarks,angles';
 
 class KinesteXService {
   private iframe: HTMLIFrameElement | null = null;
@@ -51,14 +51,39 @@ class KinesteXService {
   private config: KinesteXConfig | null = null;
   private postData: Record<string, unknown> | null = null;
 
-  private sendMessage = () => {
-    if (this.iframe?.contentWindow && this.postData) {
-      console.log('Sending KinesteX postData:', JSON.stringify(this.postData, null, 2));
-      this.iframe.contentWindow.postMessage(this.postData, KINESTEX_URL);
+  private sendPostData = (data: Record<string, unknown>) => {
+    if (this.iframe?.contentWindow) {
+      console.log('Sending KinesteX postData:', JSON.stringify(data, null, 2));
+      this.iframe.contentWindow.postMessage(data, KINESTEX_URL);
       console.log('KinesteX postData sent successfully');
     } else {
-      console.error('Cannot send message - iframe or postData not available');
+      console.error('Cannot send message - iframe not available');
     }
+  };
+
+  /**
+   * Mute audio first via "Pause Audio", then start the actual exercise.
+   * Per KinesteX support: set currentExercise to "Pause Audio" first,
+   * then change it to the real exercise to track with audio muted.
+   */
+  private sendMuteAndStart = () => {
+    if (!this.postData) {
+      console.error('Cannot send message - postData not available');
+      return;
+    }
+
+    // Step 1: Send with "Pause Audio" to mute the session
+    const muteData = { ...this.postData, currentExercise: 'Pause Audio' };
+    this.sendPostData(muteData);
+    console.log('Sent "Pause Audio" command');
+
+    // Step 2: After a short delay, switch to the actual exercise
+    setTimeout(() => {
+      if (this.postData) {
+        this.sendPostData(this.postData);
+        console.log('Sent actual exercise config');
+      }
+    }, 500);
   };
 
   private handleMessage = (event: MessageEvent) => {
@@ -79,8 +104,8 @@ class KinesteXService {
 
       switch (message.type) {
         case 'kinestex_loaded':
-          console.log('SDK kinestex_loaded received - NOW sending silent configuration...');
-          this.sendMessage();
+          console.log('SDK kinestex_loaded received - sending Pause Audio first, then exercise...');
+          this.sendMuteAndStart();
           this.eventHandlers.forEach(handler => handler({ type: 'ready' }));
           break;
 
@@ -196,16 +221,9 @@ class KinesteXService {
         gender: config.gender || 'Male',
         lifestyle: 'Sedentary',
         style: config.style || 'dark',
-        // Behavioral flags MUST be at top level (flat object) for HTML/JS /camera route
-        hideMistakesFeedback: true, // Mutes form correction voice ("Squat lower", etc.)
-        isOnboarding: false,        // Mutes intro tutorial voice
-        showSilhouette: false,      // Mutes "Step back so I can see your legs" prompts
-        hideMusicIcon: true,        // Removes music UI
-        restSpeeches: [],           // Prevents transition/rest audio
-        // Fallback mute keys for different SDK versions
-        enableVoice: false,
-        isMute: true,
-        mute: true,
+        isOnboarding: false,
+        showSilhouette: false,
+        hideMusicIcon: true,
         // Pose data config nested in customParameters for React/Web
         // TODO: NOT WORKING - pose_landmarks messages never received
         // See POSE_DATA_NOTES.md for full troubleshooting history
@@ -307,25 +325,16 @@ class KinesteXService {
     return this.isInitialized;
   }
 
-  private muteIframeAudio(): void {
-    if (!this.iframe) return;
-
-    // Try sending mute command via postMessage
-    this.iframe.contentWindow?.postMessage({ action: 'mute' }, KINESTEX_URL);
-    this.iframe.contentWindow?.postMessage({ type: 'mute' }, KINESTEX_URL);
-    this.iframe.contentWindow?.postMessage({ command: 'muteAudio', value: true }, KINESTEX_URL);
-
-    console.log('Attempted to mute KinesteX audio via postMessage');
-  }
-
   public mute(): void {
-    this.muteIframeAudio();
+    if (!this.iframe?.contentWindow || !this.postData) return;
+    const muteData = { ...this.postData, currentExercise: 'Pause Audio' };
+    this.sendPostData(muteData);
   }
 
   public unmute(): void {
-    if (!this.iframe) return;
-    this.iframe.contentWindow?.postMessage({ action: 'unmute' }, KINESTEX_URL);
-    this.iframe.contentWindow?.postMessage({ type: 'unmute' }, KINESTEX_URL);
+    if (!this.iframe?.contentWindow || !this.postData) return;
+    const unmuteData = { ...this.postData, currentExercise: 'Resume Audio' };
+    this.sendPostData(unmuteData);
   }
 }
 
